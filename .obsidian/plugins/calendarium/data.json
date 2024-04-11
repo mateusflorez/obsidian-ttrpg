@@ -1,0 +1,507 @@
+{
+  "addToDefaultIfMissing": true,
+  "calendars": [
+    {
+      "name": "Calendario de Harptos",
+      "description": "Calendario de Faerûn dos Reinos esquecidos.",
+      "autoParse": false,
+      "path": [
+        "/"
+      ],
+      "supportInlineEvents": false,
+      "inlineEventTag": "inline-events",
+      "showIntercalarySeparately": true,
+      "dateFormat": "DD-MMM-YYYY",
+      "static": {
+        "displayDayNumber": false,
+        "firstWeekDay": 0,
+        "incrementDay": false,
+        "displayMoons": true,
+        "overflow": false,
+        "padDays": 2,
+        "padMonths": 2,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "I",
+            "id": "ID_9999882bb94a"
+          },
+          {
+            "type": "day",
+            "name": "II",
+            "id": "ID_8a0b4b79d888"
+          },
+          {
+            "type": "day",
+            "name": "III",
+            "id": "ID_da483aca8bf9"
+          },
+          {
+            "type": "day",
+            "name": "IV",
+            "id": "ID_a8fbea39cac8"
+          },
+          {
+            "type": "day",
+            "name": "V",
+            "id": "ID_9b19d9787b0b"
+          },
+          {
+            "type": "day",
+            "name": "VI",
+            "id": "ID_382a590a8a28"
+          },
+          {
+            "type": "day",
+            "name": "VII",
+            "id": "ID_fbca0ab80afb"
+          },
+          {
+            "type": "day",
+            "name": "VIII",
+            "id": "ID_ca093bca5ad9"
+          },
+          {
+            "type": "day",
+            "name": "IX",
+            "id": "ID_d95b39098bf8"
+          },
+          {
+            "type": "day",
+            "name": "X",
+            "id": "ID_389bfb5858db"
+          }
+        ],
+        "months": [
+          {
+            "name": "Martelo (Inverno Profundo)",
+            "short": "Hammer",
+            "subtitle": "Deepwinter",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_cbeb4b190b6a"
+          },
+          {
+            "name": "Festival de Inverno",
+            "short": "Midwinter",
+            "type": "intercalary",
+            "length": 1,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_89bad9089b7b"
+          },
+          {
+            "name": "Alturiak (A Garra do Inverno)",
+            "short": "Alturiak",
+            "subtitle": "The Claw of Winter",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_6a08a8aacb7b"
+          },
+          {
+            "name": "Ches (A Garra dos Ocasos)",
+            "short": "Ches",
+            "subtitle": "The Claw of the Sunsets",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_db2a7bf97afa"
+          },
+          {
+            "name": "Tarsakh (A Garra das Tempestades)",
+            "short": "Tarsakh",
+            "subtitle": "The Claw of Storms",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_6b48982b0bda"
+          },
+          {
+            "name": "Festival do plantio",
+            "short": "Greengrass",
+            "type": "intercalary",
+            "length": 1,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_08790af92809"
+          },
+          {
+            "name": "Mirtul (O Degelo)",
+            "short": "Mirtul",
+            "subtitle": "The Melting",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b91b39f95a28"
+          },
+          {
+            "name": "Kythorn (A Época das Flores)",
+            "short": "Kythorn",
+            "subtitle": "The Time of Flowers",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_f8e9585a2bf8"
+          },
+          {
+            "name": "Flamarrege (Verânia)",
+            "short": "Flamerule",
+            "subtitle": "Summertide",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_fa895bdb38e9"
+          },
+          {
+            "name": "Festival de verão",
+            "short": "Midsummer",
+            "type": "intercalary",
+            "length": 1,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_a9181b5a683a"
+          },
+          {
+            "name": "Eleasis (Solalto)",
+            "short": "Eleasis",
+            "subtitle": "Highsun",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_1b1b1b287b0a"
+          },
+          {
+            "name": "Eleint (O Desvanescer)",
+            "short": "Eleint",
+            "subtitle": "The Fading",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_1aca5918993a"
+          },
+          {
+            "name": "Festival da Colheita",
+            "short": "Highharvestide",
+            "type": "intercalary",
+            "length": 1,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_a94a183b4b88"
+          },
+          {
+            "name": "Marpenoth (Quedafolha)",
+            "short": "Marpenoth",
+            "subtitle": "Leaffall",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_58d97969eb79"
+          },
+          {
+            "name": "Uktar (O Apodrecer)",
+            "short": "Uktar",
+            "subtitle": "The Rotting",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_4b090b787b18"
+          },
+          {
+            "name": "O Festival da Lua",
+            "short": "FeastOfTheMoon",
+            "type": "intercalary",
+            "length": 1,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_1b0ae8dbdb4a"
+          },
+          {
+            "name": "Noital (A Nevasca)",
+            "short": "Nightal",
+            "subtitle": "The Drawing Down",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_abb82afab80a"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Selúne",
+            "cycle": 30.4375,
+            "offset": 13.9,
+            "faceColor": "#ffffff",
+            "shadowColor": "#000000",
+            "id": "ID_48ea2a69a888"
+          }
+        ],
+        "leapDays": [
+          {
+            "name": "Shieldmeet",
+            "short": "Shieldmeet",
+            "type": "leapday",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 4
+              }
+            ],
+            "offset": 0,
+            "timespan": 9,
+            "intercalary": false,
+            "id": "ID_5b08faa88ada"
+          }
+        ],
+        "eras": []
+      },
+      "current": {
+        "day": 1,
+        "month": 0,
+        "year": 1500
+      },
+      "events": [
+        {
+          "name": "Solstício de Inverno",
+          "description": null,
+          "id": "824588",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Equinócio vernal",
+          "description": null,
+          "id": "824589",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Solstício de verão",
+          "description": null,
+          "id": "824590",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Equinócio de outono",
+          "description": null,
+          "id": "824591",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": "natural-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Encontro dos Escudos",
+          "description": "De quatro em quatro anos, um outro dia é adicionado aos 365 normais - situação idêntica a 29 de fevereiro do calendário Gregoriano. Este dia não pertence a mês algum, e segue a Noite de Verso. Conhecido por Encontro dos Escudos, é um dia de consulta dos nobres ao povo, uma data para o início e a renovação de pactos, juramentos e alianças. É um dia de torneios, justas, testes para aqueles que querem crescer como guerreiros ou clérigos, e um dia de entretenimento, especialmente através de teatros e duelos.",
+          "id": "824592",
+          "note": null,
+          "date": {
+            "day": 2,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival da Lua",
+          "description": "Este festival é o último grande evento do ano. Ele marca a chegada do inverno, além de ser a data em que os mortos são lembrados. Os túmulos são benzidos, o Ritual da Lembrança é executado e os feitos dos que estão agora mortos são contados noite adentro. A propósito, as guerras acontecem geralmente depois da colheita, continuando enquanto o clima permitir. A maior parte das batalhas escolhe o mês de Uktar, e a irônica praticidade do Festival da Lua torna-se logo aparente.",
+          "id": "824593",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 15
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival da Colheita",
+          "description": "É o dia que anuncia a chegada do outono e, conseqüentemente, da colheita. É uma festa que geralmente continua até o fim da colheita, garantindo comida para aqueles que retornam dos campos. Neste dia, os viajantes se apressam para evitar serem pegos no meio da viagem pela chuva, lama e neve.",
+          "id": "824594",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 12
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Plantio",
+          "description": "É o começo oficial da primavera, um dia de descanso. Algumas flores que foram cuidadosamente criadas em estufas nas fazendas e templos são abençoadas e atiradas sobre a neve para trazer uma boa colheita na estação vindoura.",
+          "id": "824595",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 5
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Inverno",
+          "description": "É uma grande comemoração, onde os lordes locais planejam o ano que está por vir, fazem e renovam alianças e mandam presentes para demonstrar suas boas intenções. Para as pessoas comuns no resto dos Reinos, este é o Dia do Meio do Inverno, o mais frio do ano.",
+          "id": "824596",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Verão",
+          "description": "Chamado de Noite de Verão, ou a Longa Noite, é uma data de comemoração, música e amor. Em uma cerimônia que acontece em certos lugares, moças solteiras andam pela floresta e são \"caçadas\" pelos seus pretendentes através da noite. Geralmente os noivados são realizados nesta época. É realmente muito raro o tempo estar ruim nesta noite - caso esteja, esse acontecimento é considerado um mau presságio, que costumeiramente prevê fome ou praga.",
+          "id": "824597",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": "festivals",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        }
+      ],
+      "id": "ID_08992b9a2a49",
+      "categories": [
+        {
+          "name": "Natural Events",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Festivals",
+          "id": "festivals",
+          "color": "#9b2c2c"
+        }
+      ]
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_08992b9a2a49",
+  "eventPreview": false,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 0,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": null,
+  "paths": []
+}

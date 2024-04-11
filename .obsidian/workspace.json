@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "55dd408505c329b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "745b09f524ee9e43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c821c9076bdd325a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dragão pico gélido/Phandalin/Provisões de Barthen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "417f71734756f378",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63fc6751f274d6ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "04a9b1e784a32ade",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "315ece05f1add4e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4727344f690d3b66",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Introdução",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5ca2927536dc786c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 309.5
+  },
+  "right": {
+    "id": "95f3122f09d92927",
+    "type": "split",
+    "children": [
+      {
+        "id": "33be78b48db05a3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9d0bd5fb8d32888",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dragão pico gélido/Phandalin/Provisões de Barthen.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "117499ed5474606d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dragão pico gélido/Phandalin/Provisões de Barthen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c0e2dca57343f084",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d4e57486b2ca6c0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dragão pico gélido/Phandalin/Provisões de Barthen.md"
+              }
+            }
+          },
+          {
+            "id": "1c7c5b75f3cae3d1",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_08992b9a2a49",
+                "ephemeral": {
+                  "viewing": null,
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 0,
+                    "year": 1500
+                  },
+                  "displayDayNumber": false,
+                  "displayMoons": true
+                },
+                "id": "ID_2aa99a2a78c8"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 344.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian42-brat:BRAT": false,
+      "calendarium:Open Calendarium": false
+    }
+  },
+  "active": "c821c9076bdd325a",
+  "lastOpenFiles": [
+    "Dragão pico gélido/imagens/barthen.jpg",
+    "Dragão pico gélido/imagens/provisoesBarthen.jpg",
+    "Dragão pico gélido/Phandalin/Estalagem Colina Rochosa.md",
+    "Dragão pico gélido/Phandalin/Provisões de Barthen.md",
+    "Geral/Equipamento/Equipamentos.md",
+    "Geral/Equipamento/Armas.md",
+    "Geral/Equipamento/Armaduras.md",
+    "Dragão pico gélido/Phandalin/Empório Escudo Leonino.md",
+    "Dragão pico gélido/Phandalin/Phandalin.md",
+    "Dragão pico gélido/Phandalin/Santuário da Sorte.md",
+    "Dragão pico gélido/Campanha/Sessão 1.md",
+    "Dragão pico gélido/imagens/santuarioSorte.jpg",
+    "Dragão pico gélido/imagens/Linene.jpg",
+    "Dragão pico gélido/Região phandalin.md",
+    "Dragão pico gélido/Mapa.md",
+    "Costa da espada/Mapa.md",
+    "Dragão pico gélido/imagens/EscudoLeonino.jpg",
+    "Geral/Equipamento",
+    "Geral/Equipamentos.md",
+    "Geral",
+    "Costa da espada/imagens/Costa da Espada.jpg",
+    "Draão pico gélido/Mapa.md",
+    "Draão pico gélido",
+    "Dragão pico gélido/imagens/Costa da Espada Phandalin.jpg",
+    "Costa da espada/imagens",
+    "Costa da espada",
+    "Phandalin/Phandalin.md",
+    "Phandalin/Estalagem Colina Rochosa.md",
+    "Estalagem Colina Rochosa.md",
+    "imagens/Estalagem.jpg",
+    "imagens/Toblen.jpg",
+    "imagens/Toblen.jfif",
+    "imagens/_06c3ccee-c58b-4df4-af59-100eeac7d215 1.jfif",
+    "imagens/_06c3ccee-c58b-4df4-af59-100eeac7d215.jfif",
+    "_06c3ccee-c58b-4df4-af59-100eeac7d215.jfif",
+    "Campanha/Sessão 1.md",
+    "imagens/mapa-phandalin.jpg",
+    "Personagens/Zarthos.md",
+    "Untitled.canvas",
+    "Personagens"
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "mapMarkers": [
+    {
+      "id": "costa-da-espada",
+      "lastAccessed": 1712866075107,
+      "markers": [
+        {
+          "id": "ID_59ab290b28fb",
+          "type": "Cidade",
+          "loc": [
+            2183.545740304059,
+            1913.4309498907978
+          ],
+          "link": "Região phandalin",
+          "layer": "%5B%5BCosta%20da%20Espada.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            60666.962134515394,
+            -106991.29243855464
+          ],
+          "description": "Região de phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -5679.48166649035,
+              "lng": -2794.485999249236,
+              "id": "ID_f8fbaa59b83b",
+              "targets": {
+                "vertexIds": [
+                  "ID_f938e80bd8cb"
+                ]
+              }
+            },
+            {
+              "lat": -5781.305042981213,
+              "lng": -2918.9367927380686,
+              "id": "ID_ea982869984b",
+              "targets": {
+                "vertexIds": [
+                  "ID_38b8d8d8c91b"
+                ]
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": -5679.48166649035,
+              "lng": -2794.485999249236,
+              "id": "ID_f938e80bd8cb",
+              "targets": {
+                "vertexIds": [
+                  "ID_f8fbaa59b83b"
+                ]
+              }
+            },
+            {
+              "lat": -5713.422791987305,
+              "lng": -3032.073877727916,
+              "id": "ID_cb8958983818",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": -5781.305042981213,
+              "lng": -2918.9367927380686,
+              "id": "ID_38b8d8d8c91b",
+              "targets": {
+                "vertexIds": [
+                  "ID_ea982869984b"
+                ]
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Costa da espada/Mapa.md"
+      ]
+    },
+    {
+      "id": "mapa-phandalin",
+      "lastAccessed": 1712867205762,
+      "markers": [
+        {
+          "id": "ID_58a989a9398a",
+          "type": "Mercador",
+          "loc": [
+            516.1879502661798,
+            543.0580079512686
+          ],
+          "link": "Estalagem Colina Rochosa",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            88974.62402273584,
+            -117870.70908935316
+          ],
+          "description": "Taverna/Estalagem",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_2859aabb8ac8",
+          "type": "Mercador",
+          "loc": [
+            407.3125,
+            417
+          ],
+          "link": "Empório Escudo Leonino",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Comércio de equipamentos",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_69ca09da7968",
+          "type": "Outros",
+          "loc": [
+            516,
+            464
+          ],
+          "link": "Santuário da Sorte",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            76021.76,
+            -117827.79094076656
+          ],
+          "description": "Santuário dedicado à Tymora",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Dragão pico gélido/Phandalin/Phandalin.md"
+      ]
+    },
+    {
+      "id": "costa-phandalin",
+      "lastAccessed": 1712867497702,
+      "markers": [
+        {
+          "id": "ID_e9482abb686b",
+          "type": "Cidade",
+          "loc": [
+            51.73050950261836,
+            89.19053362520407
+          ],
+          "link": "Phandalin",
+          "layer": "%5B%5BCosta%20da%20Espada%20Phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            14612.977029153435,
+            -6081.09537356699
+          ],
+          "description": "Cidade de Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Dragão pico gélido/Região phandalin.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "Cidade",
+      "iconName": "city",
+      "color": "#d33c3c",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Mercador",
+      "iconName": "store",
+      "color": "#42a943",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Habitação",
+      "iconName": "house-user",
+      "color": "#5890da",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Outros",
+      "iconName": "archway",
+      "color": "#d59b58",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Local de interesse",
+      "iconName": "mountain",
+      "color": "#c86fa7",
+      "alpha": 1,
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": false,
+    "defaultZoom": -2,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "[[Costa da Espada.jpg]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Costa da Espada.jpg]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 18,
+    "minZoom": -15,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.25,
+    "zoomFeatures": false,
+    "id": "costa-da-espada",
+    "width": "70%",
+    "lat": 1455.78,
+    "long": 2249.8,
+    "unit": "quilômetros",
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        2911.56,
+        4499.59
+      ]
+    ],
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}
