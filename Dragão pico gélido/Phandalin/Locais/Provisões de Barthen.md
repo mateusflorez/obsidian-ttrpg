@@ -1,6 +1,7 @@
 As prateleiraas deste armazém estão repletas de suprimentos comuns. O lugar passa uma impressão um tanto bagunçada. Dois garotos estão movendo caixas pela loja.
 
 - Há vários produtos e suprimentos espalhados pela loja
+- Não possui nenhum item que valha mais que 25po
 
 ### NPCs
 - Elmar Barthen
@@ -22,6 +23,7 @@ As prateleiraas deste armazém estão repletas de suprimentos comuns. O lugar pa
 
 ### Loja
 - [[Equipamentos]]
+- [[Ferramentas]]
 
 ### Imagens
 

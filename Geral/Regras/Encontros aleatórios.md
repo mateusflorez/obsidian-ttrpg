@@ -1,0 +1,1 @@
+Jogue um d20. Se o resultado for 18 ou mais, um encontro aleatório ocorre.

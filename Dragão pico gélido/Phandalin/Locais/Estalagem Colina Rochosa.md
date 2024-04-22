@@ -1,6 +1,6 @@
 Estalagem modesta de dois andares. Um cheiro agradável de comida paira no ar. Ao fundo é possível ver um senhor lavando copos atrás de uma bancada.
 
-- Algumas mesas dispostas no primeiro andar -> Em uma das mesas alguém esqueceu uma bolsa -> 17 PP
+- Algumas mesas dispostas no primeiro andar -> Em uma das mesas alguém esqueceu uma bolsa -> 17pp
 - Algumas portas no segundo andar
 - Uma lareira aquecendo o ambiente
 

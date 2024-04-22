@@ -14,7 +14,9 @@ unit: quilometros
 scale: 1  
 darkMode: false  
 bounds: [[0,0], [217.56, 156.1]]
+noScrollZoom: true
 ```
 
 ### Locais da região de Phandalin
 - [[Phandalin]]
+- [[Escavação dos Anões]]

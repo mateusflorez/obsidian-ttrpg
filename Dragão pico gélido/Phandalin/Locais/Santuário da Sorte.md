@@ -1,7 +1,7 @@
 Um santuário feito com pedras antigas de ruínas. O lugar está vazio. As cortinas balançam pelo vento frio.
 
 - Cadeiras alinhadas no interior
-- Um púlpito solitário ao fundo do santuário-> Verificando o púlpito é possível encontrar 35PC e um broche dos harpistas
+- Um púlpito solitário ao fundo do santuário-> Verificando o púlpito é possível encontrar 35PC e um broche -> (História) Broche dos Harpistas
 
 ### Informações
 - É guardado por uma acólita fervorosa chamada irmã Garaele

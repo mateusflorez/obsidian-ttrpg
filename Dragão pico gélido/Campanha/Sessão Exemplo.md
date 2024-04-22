@@ -18,7 +18,7 @@
 		- Razão das sereias pararem de cantar
 
 ### Regras importantes
-
+- [[Encontros aleatórios]]
 
 ### Encontros planejados
 - Encontrar merina

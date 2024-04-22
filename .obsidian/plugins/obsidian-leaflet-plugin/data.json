@@ -98,22 +98,22 @@
     },
     {
       "id": "mapa-phandalin",
-      "lastAccessed": 1712867205762,
+      "lastAccessed": 1713630404668,
       "markers": [
         {
           "id": "ID_58a989a9398a",
           "type": "Mercador",
           "loc": [
-            516.1879502661798,
-            543.0580079512686
+            154,
+            164
           ],
           "link": "Estalagem Colina Rochosa",
           "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": [
-            88974.62402273584,
-            -117870.70908935316
+            26869.76,
+            -35165.65853658537
           ],
           "description": "Taverna/Estalagem",
           "minZoom": null,
@@ -124,14 +124,17 @@
           "id": "ID_2859aabb8ac8",
           "type": "Mercador",
           "loc": [
-            407.3125,
-            417
+            121.5,
+            124
           ],
           "link": "Empório Escudo Leonino",
           "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
           "mutable": true,
           "command": false,
-          "percent": null,
+          "percent": [
+            20316.16,
+            -27744.33449477352
+          ],
           "description": "Comércio de equipamentos",
           "minZoom": null,
           "maxZoom": null,
@@ -141,18 +144,95 @@
           "id": "ID_69ca09da7968",
           "type": "Outros",
           "loc": [
-            516,
-            464
+            153.5,
+            139.5
           ],
           "link": "Santuário da Sorte",
           "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
           "mutable": true,
           "command": false,
           "percent": [
-            76021.76,
-            -117827.79094076656
+            22855.68,
+            -35051.484320557494
           ],
           "description": "Santuário dedicado à Tymora",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fac8980aa9b8",
+          "type": "Mercador",
+          "loc": [
+            179,
+            185.5
+          ],
+          "link": "Provisões de Barthen",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            30392.32,
+            -40874.36933797909
+          ],
+          "description": "Loja de provisões",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0a9828ca7a69",
+          "type": "Mercador",
+          "loc": [
+            85,
+            119
+          ],
+          "link": "Corretora de Minérios de Phandalin",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            19496.96,
+            -19409.616724738677
+          ],
+          "description": "Corretora de minérios",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_396a7a689a78",
+          "type": "Outros",
+          "loc": [
+            123.828125,
+            154.75
+          ],
+          "link": "Salão do prefeito",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Prefeitura/Quadro de missões",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b38db7928fb",
+          "type": "Habitação",
+          "loc": [
+            115.5,
+            189.5
+          ],
+          "link": "Casa de Harbin Wester",
+          "layer": "%5B%5Bimagens%2Fmapa-phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            31047.68,
+            -26374.243902439026
+          ],
+          "description": "Casa do prefeito",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -166,7 +246,7 @@
     },
     {
       "id": "costa-phandalin",
-      "lastAccessed": 1712867497702,
+      "lastAccessed": 1713631427282,
       "markers": [
         {
           "id": "ID_e9482abb686b",
@@ -184,6 +264,26 @@
             -6081.09537356699
           ],
           "description": "Cidade de Phandalin",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5ad8a8ba0b0a",
+          "type": "Local de interesse",
+          "loc": [
+            31.112698372208094,
+            79.55078408668874
+          ],
+          "link": "Escavação dos Anões",
+          "layer": "%5B%5BCosta%20da%20Espada%20Phandalin.jpg%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            13033.600464763083,
+            -3657.4023327731475
+          ],
+          "description": "Templo anão",
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
