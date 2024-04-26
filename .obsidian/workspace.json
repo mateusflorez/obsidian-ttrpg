@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md"
+                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md"
               }
             }
           }
@@ -163,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 386.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,52 +180,52 @@
   },
   "active": "0dd94a79335d7dc7",
   "lastOpenFiles": [
-    "Dragão pico gélido/Locais/Escavação dos Anões.md",
-    "Dragão pico gélido/Campanha/Sessão Exemplo.md",
-    "Geral/Equipamento/Equipamentos.md",
-    "Dragão pico gélido/Phandalin/Locais/Provisões de Barthen.md",
-    "Dragão pico gélido/itens/Escudo +1.md",
-    "Geral/Regras/Encontros aleatórios.md",
-    "Dragão pico gélido/Personagens/Zarthos.md",
-    "Dragão pico gélido/Phandalin/Locais/Estalagem Colina Rochosa.md",
-    "Dragão pico gélido/Phandalin/Locais/Salão do prefeito.md",
-    "Dragão pico gélido/Phandalin/Missões phandalin.md",
-    "Dragão pico gélido/Phandalin/Phandalin.md",
-    "Dragão pico gélido/Região phandalin.md",
-    "Costa da espada/Mapa.md",
-    "Dragão pico gélido/imagens/barthen.jpg",
-    "Dragão pico gélido/imagens/Toblen.jpg",
-    "Dragão pico gélido/itens/Cubo térmico.md",
-    "Dragão pico gélido/itens/Fragmento de feitiço.md",
-    "Dragão pico gélido/Phandalin/Locais/Casa de Harbin Wester.md",
-    "Dragão pico gélido/imagens/harbinWester.jpg",
-    "Dragão pico gélido/Phandalin/Locais/Empório Escudo Leonino.md",
-    "Dragão pico gélido/imagens/casaHarbin.jpg",
-    "Dragão pico gélido/itens",
+    "Pf2e/Regras/Serviços/Custo de vida.md",
+    "Pf2e/Regras/Serviços/Armaduras de animal.md",
+    "Pf2e/Regras/Serviços/Animais.md",
+    "Pf2e/Regras/Serviços/Serviços de conjuração.md",
+    "Pf2e/Regras/Serviços/Serviços e consumíveis básicos.md",
+    "Pf2e/Regras/Serviços",
+    "Untitled.md",
+    "Pf2e/Regras",
+    "Pf2e",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Casa de Harbin Wester.md",
+    "D&D/Dragão pico gélido/Phandalin/Phandalin.md",
+    "D&D/Dragão pico gélido/Região phandalin.md",
+    "D&D/Costa da espada/Mapa.md",
+    "D&D",
+    "D&D/Dragão pico gélido/Locais/Escavação dos Anões.md",
+    "D&D/Dragão pico gélido/Campanha/Sessão Exemplo.md",
+    "D&D/Geral/Equipamento/Equipamentos.md",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Provisões de Barthen.md",
+    "D&D/Dragão pico gélido/itens/Escudo +1.md",
+    "D&D/Geral/Regras/Encontros aleatórios.md",
+    "D&D/Dragão pico gélido/Personagens/Zarthos.md",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Estalagem Colina Rochosa.md",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Salão do prefeito.md",
+    "D&D/Dragão pico gélido/Phandalin/Missões phandalin.md",
+    "D&D/Dragão pico gélido/imagens/barthen.jpg",
+    "D&D/Dragão pico gélido/imagens/Toblen.jpg",
+    "D&D/Dragão pico gélido/itens/Cubo térmico.md",
+    "D&D/Dragão pico gélido/itens/Fragmento de feitiço.md",
+    "D&D/Dragão pico gélido/imagens/harbinWester.jpg",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Empório Escudo Leonino.md",
+    "D&D/Dragão pico gélido/imagens/casaHarbin.jpg",
+    "D&D/Dragão pico gélido/itens",
     "Dragão pico gélido/missões",
     "Dragão pico gélido/Untitled.md",
-    "Dragão pico gélido/imagens/escavacaoAnoesjpg.jpg",
-    "Dragão pico gélido/imagens/EscudoLeonino.jpg",
+    "D&D/Dragão pico gélido/imagens/escavacaoAnoesjpg.jpg",
+    "D&D/Dragão pico gélido/imagens/EscudoLeonino.jpg",
     "Dragão pico gélido/Phandalin/Locais/Outros Phandalin.md",
-    "Dragão pico gélido/Locais",
-    "Dragão pico gélido/Phandalin/Locais/Corretora de Minérios de Phandalin.md",
-    "Dragão pico gélido/Phandalin/Locais",
-    "Dragão pico gélido/imagens/salaoPrefeito.jpg",
-    "Dragão pico gélido/Phandalin/Locais/Santuário da Sorte.md",
-    "Dragão pico gélido/imagens/phandalinImagem.jpg",
-    "Dragão pico gélido/imagens/haliaThornton.jpg",
-    "Dragão pico gélido/imagens/Linene.jpg",
-    "Geral/Comercio/Veículos Aquáticos.md",
-    "Geral/Comercio/Selas, Arreios e Veículos de Tração.md",
-    "Geral/Equipamento/Armaduras.md",
-    "Geral/Comercio/Serviços.md",
-    "Geral/Comercio/Animais.md",
-    "Geral/Comercio",
-    "Geral/Regras",
-    "Geral/Equipamento",
-    "Geral",
-    "Draão pico gélido",
-    "Costa da espada/imagens",
+    "D&D/Dragão pico gélido/Locais",
+    "D&D/Dragão pico gélido/Phandalin/Locais/Corretora de Minérios de Phandalin.md",
+    "D&D/Dragão pico gélido/Phandalin/Locais",
+    "D&D/Dragão pico gélido/imagens/salaoPrefeito.jpg",
+    "D&D/Dragão pico gélido/imagens/phandalinImagem.jpg",
+    "D&D/Dragão pico gélido/imagens/haliaThornton.jpg",
+    "D&D/Dragão pico gélido/imagens/Linene.jpg",
+    "D&D/Geral/Comercio",
+    "D&D/Geral/Regras",
     "Untitled.canvas"
   ]
 }
