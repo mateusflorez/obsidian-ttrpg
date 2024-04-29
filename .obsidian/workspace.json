@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6095d49e65d155d8",
+        "id": "198cd0c729313aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "0dd94a79335d7dc7",
+            "id": "008cb53f8dfc0310",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
+                "file": "Pf2e/Regras/Ações/Testes.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,18 +96,19 @@
             "state": {
               "type": "CALENDARIUM",
               "state": {
-                "calendar": "ID_08992b9a2a49",
+                "calendar": "ID_795b0948f86b",
                 "ephemeral": {
-                  "viewState": 1,
+                  "viewState": 0,
                   "displaying": {
-                    "day": 1,
+                    "day": 15,
                     "month": 0,
-                    "year": 1500
+                    "year": 4720
                   },
-                  "displayDayNumber": false,
+                  "displayDayNumber": true,
                   "displayMoons": true
                 },
-                "id": "ID_9bda18490b59"
+                "id": "ID_9bda18490b59",
+                "child": "ID_3bba08b9aba9"
               }
             }
           },
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
+                "file": "Pf2e/Regras/Ações/Testes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md",
+                "file": "Pf2e/Regras/Ações/Testes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,16 +155,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pf2e/Regras/Serviços/Armaduras de animal.md"
+                "file": "Pf2e/Regras/Ações/Testes.md"
               }
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "09252e2fa25827c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6847be7d270a38d7",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_795b0948f86b",
+                "id": "ID_3bba08b9aba9",
+                "parent": "ID_9bda18490b59"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 368.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,54 +197,54 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "0dd94a79335d7dc7",
+  "active": "008cb53f8dfc0310",
   "lastOpenFiles": [
+    "Pf2e/Regras/Descanso.md",
+    "Pf2e/Regras/Ações/Testes.md",
+    "Pf2e/Regras/Ações/Combate aquático.md",
+    "Pf2e/Regras/Ações/Combate montado.md",
+    "Pf2e/Regras/Ações/Cobertura.md",
+    "Pf2e/Regras/Ações/Flanquear.md",
+    "Pf2e/Imagens/Regras/Flanquear.webp",
+    "Pf2e/Regras/Ações/Ações básicas.md",
+    "Pf2e/Regras/Pontos de heroísmo.md",
+    "Pf2e/Regras/Ações",
+    "Pf2e/Regras/Morrendo.md",
+    "Pf2e/Regras/Aflições.md",
+    "Pf2e/Regras/Áreas.md",
+    "Pf2e/Regras/Condições.md",
+    "Pf2e/Regras/Dano persisitente.md",
+    "Pf2e/Regras/Iniciativa.md",
+    "Pf2e/Regras/Modificadores de atributo.md",
+    "Pf2e/Regras/Penalidades de ataque.md",
+    "Pf2e/Imagens/Regras/Áreas.png",
+    "Pf2e/Imagens/Regras",
+    "Pf2e/Imagens",
+    "Pf2e/Regras/Serviços/Serviços e consumíveis básicos.md",
+    "Pf2e/Regras/Serviços/Serviços de conjuração.md",
     "Pf2e/Regras/Serviços/Custo de vida.md",
     "Pf2e/Regras/Serviços/Armaduras de animal.md",
     "Pf2e/Regras/Serviços/Animais.md",
-    "Pf2e/Regras/Serviços/Serviços de conjuração.md",
-    "Pf2e/Regras/Serviços/Serviços e consumíveis básicos.md",
+    "Pf2e/Regras/Idiomas/Idioma secreto.md",
+    "Pf2e/Regras/Idiomas/Idiomas Incomuns.md",
+    "Pf2e/Regras/Idiomas/Idiomas Comuns.md",
+    "Pf2e/Regras/Equipamentos/Valor de moedas.md",
+    "Pf2e/Regras/Equipamentos/Armaduras.md",
+    "Pf2e/Regras/Dano",
+    "Pf2e/Regras/Idiomas",
+    "Pf2e/Regras/Atributos",
+    "Pf2e/Regras/Equipamentos",
     "Pf2e/Regras/Serviços",
-    "Untitled.md",
     "Pf2e/Regras",
     "Pf2e",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Casa de Harbin Wester.md",
-    "D&D/Dragão pico gélido/Phandalin/Phandalin.md",
-    "D&D/Dragão pico gélido/Região phandalin.md",
-    "D&D/Costa da espada/Mapa.md",
-    "D&D",
-    "D&D/Dragão pico gélido/Locais/Escavação dos Anões.md",
-    "D&D/Dragão pico gélido/Campanha/Sessão Exemplo.md",
-    "D&D/Geral/Equipamento/Equipamentos.md",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Provisões de Barthen.md",
-    "D&D/Dragão pico gélido/itens/Escudo +1.md",
-    "D&D/Geral/Regras/Encontros aleatórios.md",
-    "D&D/Dragão pico gélido/Personagens/Zarthos.md",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Estalagem Colina Rochosa.md",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Salão do prefeito.md",
-    "D&D/Dragão pico gélido/Phandalin/Missões phandalin.md",
     "D&D/Dragão pico gélido/imagens/barthen.jpg",
     "D&D/Dragão pico gélido/imagens/Toblen.jpg",
-    "D&D/Dragão pico gélido/itens/Cubo térmico.md",
-    "D&D/Dragão pico gélido/itens/Fragmento de feitiço.md",
     "D&D/Dragão pico gélido/imagens/harbinWester.jpg",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Empório Escudo Leonino.md",
     "D&D/Dragão pico gélido/imagens/casaHarbin.jpg",
-    "D&D/Dragão pico gélido/itens",
-    "Dragão pico gélido/missões",
-    "Dragão pico gélido/Untitled.md",
     "D&D/Dragão pico gélido/imagens/escavacaoAnoesjpg.jpg",
     "D&D/Dragão pico gélido/imagens/EscudoLeonino.jpg",
-    "Dragão pico gélido/Phandalin/Locais/Outros Phandalin.md",
-    "D&D/Dragão pico gélido/Locais",
-    "D&D/Dragão pico gélido/Phandalin/Locais/Corretora de Minérios de Phandalin.md",
-    "D&D/Dragão pico gélido/Phandalin/Locais",
     "D&D/Dragão pico gélido/imagens/salaoPrefeito.jpg",
     "D&D/Dragão pico gélido/imagens/phandalinImagem.jpg",
-    "D&D/Dragão pico gélido/imagens/haliaThornton.jpg",
-    "D&D/Dragão pico gélido/imagens/Linene.jpg",
-    "D&D/Geral/Comercio",
-    "D&D/Geral/Regras",
     "Untitled.canvas"
   ]
 }

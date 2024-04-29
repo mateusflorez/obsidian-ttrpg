@@ -13,8 +13,8 @@ Posto comercial modesto. Uma jovem mulher está limpando algumas armaduras da lo
 		- Os destroços são cheios de tesouro
 
 ### Loja
-- [[Armaduras]]
-- [[Armas]]
+- [[D&D/Geral/Equipamento/Armaduras]]
+- [[D&D/Geral/Equipamento/Armas]]
 
 ### Imagens
 

@@ -477,12 +477,1864 @@
           "color": "#9b2c2c"
         }
       ]
+    },
+    {
+      "name": "Calendário de Golarion",
+      "description": "Calendário do mundo de Pathfinder.",
+      "autoParse": false,
+      "path": [
+        "/"
+      ],
+      "supportInlineEvents": false,
+      "inlineEventTag": "inline-events",
+      "showIntercalarySeparately": true,
+      "static": {
+        "displayDayNumber": true,
+        "firstWeekDay": 0,
+        "incrementDay": false,
+        "displayMoons": true,
+        "overflow": true,
+        "padDays": 2,
+        "padMonths": 2,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Lua-Feira",
+            "id": "ID_db8af8f85b8a"
+          },
+          {
+            "type": "day",
+            "name": "Labuta-Feira",
+            "id": "ID_f87a094b2849"
+          },
+          {
+            "type": "day",
+            "name": "Próspera-Feira",
+            "id": "ID_2a5bb88b3ae8"
+          },
+          {
+            "type": "day",
+            "name": "Jura-Feira",
+            "id": "ID_c93a0be8981b"
+          },
+          {
+            "type": "day",
+            "name": "Flama-Feira",
+            "id": "ID_2b7b59794a0b"
+          },
+          {
+            "type": "day",
+            "name": "Estrelábado",
+            "id": "ID_baaa6a89ca1b"
+          },
+          {
+            "type": "day",
+            "name": "Solmingo ",
+            "id": "ID_f9baca088b28"
+          }
+        ],
+        "months": [
+          {
+            "name": "Abadius",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_dad9da89f818"
+          },
+          {
+            "name": "Calistril",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_980a88cb9b68"
+          },
+          {
+            "name": "Pharast",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_a9c96ac80908"
+          },
+          {
+            "name": "Gozran",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_a99a697b9abb"
+          },
+          {
+            "name": "Desnus",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_8bcad9a8f84a"
+          },
+          {
+            "name": "Sarenith",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_484a49a998db"
+          },
+          {
+            "name": "Erastus",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_9a48e9b96938"
+          },
+          {
+            "name": "Arodus",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_bbe99b2afaea"
+          },
+          {
+            "name": "Rova",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_ba39fbe8c8b8"
+          },
+          {
+            "name": "Lamashan",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_69d93ba9dba8"
+          },
+          {
+            "name": "Neth",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_4ad8fb79eb6a"
+          },
+          {
+            "name": "Kuthona",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_9a3a8b388939"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Somal",
+            "cycle": 29.5,
+            "offset": 9.5,
+            "faceColor": "#ffffff",
+            "shadowColor": "#292b4a",
+            "id": "ID_b87ab959cac9"
+          }
+        ],
+        "leapDays": [
+          {
+            "id": "ID_88c8da3b8b2b",
+            "name": "Dia bissexto",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 8
+              }
+            ],
+            "intercalary": false,
+            "timespan": 1,
+            "offset": 0,
+            "type": "leapday"
+          }
+        ],
+        "eras": [
+          {
+            "name": "Era da Escuridão",
+            "format": "{{era_name}}",
+            "date": {
+              "year": -5300,
+              "month": 0,
+              "day": 1
+            },
+            "id": "ID_58e99a8b9b9a",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          },
+          {
+            "name": "Era da Angústia",
+            "format": "{{era_name}}",
+            "date": {
+              "year": -4500,
+              "month": 8,
+              "day": 1
+            },
+            "id": "ID_3af84ada898a",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          },
+          {
+            "name": "Era do Destino",
+            "format": "{{era_name}}",
+            "date": {
+              "year": -3500,
+              "month": 8,
+              "day": 1
+            },
+            "id": "ID_abc87ad9fbfb",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          },
+          {
+            "name": "Era da Entronização",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 1,
+              "month": 8,
+              "day": 1
+            },
+            "id": "ID_19197be9dac8",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          },
+          {
+            "name": "Era dos Presságios Perdidos",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 4606,
+              "month": 8,
+              "day": 1
+            },
+            "id": "ID_7b585b5bd9ea",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          },
+          {
+            "name": "Era das Serpentes",
+            "format": "{{era_name}}",
+            "date": {
+              "year": 4720,
+              "month": 8,
+              "day": 15
+            },
+            "id": "ID_eb4af87babaa",
+            "endsYear": false,
+            "isEvent": false,
+            "type": "era",
+            "category": null,
+            "isStartingEra": false
+          }
+        ]
+      },
+      "current": {
+        "day": 15,
+        "month": 0,
+        "year": 4720
+      },
+      "events": [
+        {
+          "name": "Solstício de Verão",
+          "description": "No solstício de verão, o Sol percorre o caminho mais longo no céu e, portanto, esse dia tem mais luz solar.",
+          "id": "824492",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Solstício de Inverno",
+          "description": "O solstício de inverno marca o dia mais curto e a noite mais longa do ano, quando o sol está no arco mais baixo do céu.",
+          "id": "824493",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Equinócio de Primavera",
+          "description": "O equinócio marca o dia e a noite é igualmente longa.",
+          "id": "824494",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Equinócio de Outono",
+          "description": "O equinócio marca o dia e a noite é igualmente longa.",
+          "id": "824495",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Beijo Eterno",
+          "description": "Zon-Kuthon\n\nCulminando na primeira lua nova do ano novo, o Beijo Eterno é uma cerimônia de 11 dias em homenagem a Zon-Kuthon. No último dia, um sacrifício vivo é feito ao Príncipe das Trevas, depois que a vítima é mimada e satisfeita durante os dez dias anteriores. O sacrifício pode ser de um inimigo ou de um grande devoto da igreja, e é mantido vivo pelo maior tempo possível durante a tortura por meio de magia. Este feriado geralmente envolve leitura da sorte como parte da tortura, usando as entranhas da vítima ou seus gritos de dor para determinar a vontade do Senhor da Meia-Noite. Ocasionalmente acredita-se que o sacrifício profetizará com a voz do próprio Zon-Kuthon.",
+          "id": "824496",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Longanoite",
+          "description": "Longanoite é um feriado celebrado na lua cheia do mês de inverno de Abadius. Durante o festival, os foliões ficam acordados a noite toda para saudar o amanhecer e desafiar os longos meses de inverno. É até comemorado em Irrisen, onde não há estações naturais.",
+          "id": "824497",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Fundação",
+          "description": "Absalão, Milani\n\nO Dia da Fundação é um feriado civil celebrado no Ano Novo (1 Abadius) em Absalão para comemorar a fundação da cidade pelo deus Aroden em 1 AR.",
+          "id": "824498",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 0
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia de Pjallarane",
+          "description": "O Dia de Pjallarane é um feriado antigo em Irrisen comemorado em 1 Abadius (Dia de Ano Novo). A cada 100 anos, Baba Yaga retorna a Golarion para remover sua filha do trono de Irrisen e, em seu lugar, colocar outra filha no trono. Em 3713 AR, a terceira Rainha de Irrisen, Pjallarane, e seus filhos optaram por resistir. Baba Yaga esmagou implacavelmente a rebelião em um único dia, que agora é comemorado como feriado. A festa inclui festa e queima de efígies de alcatrão e palha. Isto é um lembrete do destino dos seguidores de Pjallarane, que foram queimados vivos como um aviso a todos aqueles que se opunham a Baba Yaga.",
+          "id": "824499",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 0
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia do Cofre",
+          "description": "Abadar\n\nO Vault Day é um feriado realizado no dia 6 de Abadius em homenagem a Abadar, Mestre do Primeiro Cofre.",
+          "id": "824500",
+          "note": null,
+          "date": {
+            "day": 6,
+            "year": [
+              null,
+              null
+            ],
+            "month": 0
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Aniversário do Príncipe Rubi",
+          "description": "Osírion\n\nO Aniversário do Príncipe Rubi é um feriado nacional em Osirion em homenagem ao aniversário de Khemet III, o Príncipe Rubi. É comemorado anualmente no dia 20 de Abadius.",
+          "id": "824501",
+          "note": null,
+          "date": {
+            "day": 20,
+            "year": [
+              null,
+              null
+            ],
+            "month": 0
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Alegromel",
+          "description": "Druma, Cayden Cailean\n\nFeriado que ocorre no dia 2 de Calistril, Alegromel foi datado em Druma e deve ser um momento para compartilhar o resto do hidromel do ano anterior com o resto da comunidade.\n\nNos tempos atuais, a maioria das pessoas usa isso apenas como desculpa para beber excessivamente. Os pobres viajam de bar em bar bebendo qualquer bebida alcoólica que possam pagar, enquanto os ricos reservam safras específicas para este dia. Uma consequência conhecida deste dia são os 'motins do hidromel' que acontecem quando há mais celebrantes do que álcool para servi-los. Isso leva a um grupo violento e destrutivo de pessoas em um bar lotado. Se esta for uma ocorrência comum em determinadas cidades, eles podem reforçar a sua força de guarda para a noite inevitavelmente agitada.",
+          "id": "824502",
+          "note": null,
+          "date": {
+            "day": 2,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Aniversário do Rei Eodred II",
+          "description": "Korvosa\n\nO aniversário do rei Eodred II era um feriado local na cidade-estado varisiana de Korvosa e era comemorado em 16 de Calistril. Comemorou o aniversário de seu antigo governante, o rei Eodred Arabasti II, que decretou que, naquele dia, mulheres seminuas dançariam e serviriam vinho de graça aos celebrantes.",
+          "id": "824503",
+          "note": null,
+          "date": {
+            "day": 16,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Lealdade",
+          "description": "Queliax, Asmodeus\n\nO Dia da Lealdade é um feriado na nação de Cheliax que comemora a data de 19 de Calistril, 4640 AR, quando a Casa Thrune assinou o Tratado de Egorian, declarando-o o vencedor na Guerra Civil Chelish e governante do império. Por causa dos conhecidos laços da Casa Thrune com o infernal, este feriado também é observado pela Igreja de Asmodeus, que o considera um dia de festa. A igreja, juntamente com os governos locais, oferecem uma refeição gratuita a todos os cidadãos para lembrá-los dos benefícios que a House Thrune lhes proporciona.",
+          "id": "824504",
+          "note": null,
+          "date": {
+            "day": 19,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia sem Destino",
+          "description": "Mahatalá\n\nOs seguidores do Mahathallah marcam cada dia bissexto como o Dia sem Destino, quando o Rio das Almas para temporariamente e as almas podem escapar do julgamento de Pharasma. Eles realizam muitos rituais de sacrifício e suicídio no Dia sem Destino.",
+          "id": "824505",
+          "note": null,
+          "date": {
+            "day": 29,
+            "year": [
+              null,
+              null
+            ],
+            "month": 1
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Desfile Golemwalk",
+          "description": "Magnimar, Varisia\n\nO Desfile Golemwalk é um desfile de golens criado por amadores na esperança de ganhar uma bolsa monetária, ou mesmo um emprego, da Golemworks em Magnimar. Ao final do desfile pela Avenida de Honras, os construtos são julgados.",
+          "id": "824506",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia dos ossos",
+          "description": "Farasma\n\nPadres e fiéis da Senhora das Sepulturas desfilam os corpos dos recentemente falecidos neste feriado, realizando posteriormente enterros gratuitos.",
+          "id": "824507",
+          "note": null,
+          "date": {
+            "day": 5,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Fundação da Sable Company",
+          "description": "Korvosa\n\nO Dia da Fundação da Sable Company é um feriado que marca a fundação da Sable Company da cidade-estado varisiana de Korvosa. Comemorado no dia 6 de Farast, o dia é marcado por desfiles militares sombrios que geralmente impedem o consumo de álcool, um alimento básico na maioria dos outros feriados.",
+          "id": "824508",
+          "note": null,
+          "date": {
+            "day": 6,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Noite das Lágrimas",
+          "description": "Solku\n\nA Noite das Lágrimas acontece anualmente no dia 7 de Pharast, na cidade de Solku, em Katapeshi. É uma vigília solene em homenagem aos perdidos na Batalha de Red Hail em 4701 AR.",
+          "id": "824509",
+          "note": null,
+          "date": {
+            "day": 7,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Kaliashahrim",
+          "description": "Qadira\n\nKaliashahrim é um feriado nacional celebrado em 13 de Farast em Qadira que celebra o Imperador Padishah da distante Katheer e a lealdade de Qadira a ele.",
+          "id": "824510",
+          "note": null,
+          "date": {
+            "day": 13,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Conquista",
+          "description": "Próximo\n\nTodos os anos, no dia 26 de Pharast, o Arquiteto Ancião Oblosk - membro mais antigo do Conselho dos Três e Nove de Nex - sobe às varandas mais altas de Bandeshar em Quantium. Com uma voz trovejante devido à magia da plataforma, o enrugado vereador pech passa as horas do anoitecer até pouco depois do meio-dia enumerando as atrocidades cometidas pelos necromantes de Geb contra o povo de Nex, culminando com o desaparecimento do próprio arquimago Nex. Na conclusão deste registo de feridas nacionais, os outros onze membros do conselho do país juntam-se a Oblosk na renovação do seu voto anual de não esquecer nem perdoar as atrocidades dos Gebbitas e de jurar novamente em nome do seu governante perdido travar uma guerra interminável contra os seus antigos inimigos.\n\nNeste dia, conhecido como Dia da Conquista, espera-se que todo o povo de Nex compartilhe os juramentos de seus líderes, celebre o patriotismo compartilhado de sua maravilhosa nação e lembre-se dos sacrifícios dos heróis do passado. Isso também faz com que seja um dia para muitos magos Nexianos revelarem novos feitiços mortais, construções gigantescas e obras-primas arcanas audaciosas – que muitos criadores prometem ser a ruína de seus inimigos. Mesmo no resto da região do Mar Interior, muitos cruzados, rebeldes e fanáticos observam o Dia da Conquista como um dia para renovar juramentos de sangue, lançar batalhas há muito planejadas e, finalmente, vingar-se. É um dia para palavras de honra, um dia para gritos de guerra e um dia em que a glória favorece mais os ousados.",
+          "id": "824511",
+          "note": null,
+          "date": {
+            "day": 26,
+            "year": [
+              null,
+              null
+            ],
+            "month": 2
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dias da Ira",
+          "description": "Asmodeus, Cheliax\n\nOs Dias da Ira, ou Dies Irae, são um feriado celebrado tanto nos solstícios quanto nos equinócios na nação de Cheliax e onde quer que Asmodeus seja adorado. São principalmente um feriado nacional e não verdadeiramente religioso, mas os dois são frequentemente confundidos devido ao atual clima político de Cheliax. Várias competições e esportes sangrentos são realizados nestes dias, promovendo as elites que conseguem demonstrar claramente sua superioridade sobre as outras. Alguns acreditam que estas competições são assistidas e julgadas pelos próprios demônios. Nas partes do mundo onde o Príncipe das Trevas não é venerado abertamente, estes feriados assumem um tom diferente: são usados para resolver velhas queixas e também para rescindir contratos.\n\nHoje em dia, os esportes sangrentos são organizados nos estádios das cidades. Escravos e servos de qualquer mestre podem optar por entrar na arena para batalhas sangrentas um contra um até a morte. Homens e mulheres livres de todas as classes também podem entrar na arena. Os participantes lutam em rodadas até que finalmente um fique sozinho. O vencedor recebe a liberdade da escravidão ou servidão, o cancelamento de todas as dívidas e uma bolsa de ouro.\n\nO solstício de inverno marca o culminar do Dies Irae, com todos os vencedores das três lutas anteriores convocados para Egorian para lutar até a morte para a diversão dos nobres. O vencedor recebe o título de baronete e um terreno.",
+          "id": "824512",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Primeira Floração",
+          "description": "Gozreh\n\nA primeira floração é um feriado que celebra o primeiro plantio da estação agrícola e geralmente associado ao deus do clima, Gozreh. Cai no equinócio vernal. Muitas comunidades agrícolas consideram-no o início do ano, embora os calendários convencionais comecem dois meses antes. Apesar do cansaço após um dia inteiro de plantio, muitas comunidades agrícolas realizam celebrações à noite: festas, danças e cortejos mostram o ciclo da natureza.",
+          "id": "824513",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Primeiro Corte",
+          "description": "Oco do Falcão\n\nA celebração do Primeiro Corte em Falcon's Hollow costumava marcar a data do trabalho na floresta a cada primavera. Agora, no entanto, é uma cerimônia decrépita e sem sentido, já que Thuldrin Kreed força as equipes madeireiras a trabalhar mesmo durante os meses mais frios do inverno. Mesmo assim, o Primeiro Corte traz gente para comemorar a data da primavera.",
+          "id": "824514",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Currentseve",
+          "description": "Gozreh\n\nNeste feriado religioso, todos os que viajam nas águas fazem oferendas a Gozreh na esperança de uma passagem segura para o próximo ano.",
+          "id": "824515",
+          "note": null,
+          "date": {
+            "day": 7,
+            "year": [
+              null,
+              null
+            ],
+            "month": 3
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival Fiscal",
+          "description": "Abadar\n\nNinguém gosta de pagar impostos, mas a cobrança de impostos justos é considerada parte integrante da manutenção da sociedade e, portanto, é sagrada para o deus Abadar. Todos os anos, no dia 15 de Gozran, os padres da igreja de Abadar passam o dia caminhando pelas ruas da cidade, fazendo o que podem para tornar a pílula amarga dos impostos anuais um pouco mais fácil de engolir.\n\nO negócio do dia\n\nDo amanhecer ao anoitecer, os clérigos de Abadar atendem os cobradores de impostos de comunidades consideráveis enquanto os carroções fiscais passam de porta em porta. Os oficiais da igreja monitorizam estas actividades para garantir que o processo é conduzido de forma respeitosa e justa, e que os cidadãos sabem que o processo é monitorizado. Mais do que apenas ajudar na tarefa anual, os fiéis agradecem pessoalmente a cada cidadão por contribuir para a melhoria da sua cidade, enaltecem as obras públicas financiadas pelas suas contribuições e preveem a grandeza dos projetos cívicos que virão. Eles tentam confortar os desprivilegiados e desamparados da melhor maneira possível, citando o dogma de seu deus sobre trabalho e dignidade, mas este não é um dia para descontos ou adiamentos. Os cidadãos podem expressar as suas preocupações e ideias sobre onde o dinheiro cobrado deve ser melhor aplicado. Os cidadãos são livres para expressar o que pensam sobre qualquer assunto aqui, sem medo de repercussão.\n\nAs comemorações do dia\n\nAo anoitecer, os Abadarans organizam diversas celebrações em parques, praças e outras áreas comuns da cidade, organizando doações e contribuições de vendedores locais para alimentar e entreter todos os que chegam. Tendo já pregado para a maior parte da cidade ao longo do dia, os clérigos realizam apenas uma breve cerimónia de abertura, dedicando a festa a Abadar, à cidade e ao seu grande povo. Estas celebrações são muitas vezes bastante distintas de bairro para bairro e quase sempre divididas ao longo de fronteiras económicas.\n\nAs festividades que envolvem os cidadãos mais ricos geralmente acontecem nos degraus da prefeitura ou em outros grandes edifícios cívicos e apresentam a melhor música e comida, mas muitas vezes pouco mais do que jogos educados de cartas e adivinhações. Essas galas geralmente terminam à meia-noite.\n\nPara o povo comum, os parques e mercados assumem uma atmosfera de carnaval, com comida simples, mas boa, cervejas locais, apresentações de cidadãos talentosos e jogos de azar que acontecem até altas horas da noite. Uma superstição predominante nesses festivais é que, durante a celebração, é sorte beijar – ou em algumas regiões, beliscar – um clérigo de Abadar, levando a muitos clérigos de bochechas rosadas.\n\nAté mesmo os pobres da cidade têm motivos para comemorar, já que o templo local de Abadar organiza uma reunião alegre, mas descaradamente religiosa, em seus degraus, alimentando todos os que chegam, distribuindo uma generosa ração de vinho, cantando hinos de fé e fornecendo fichas para uma festa. segunda ração de vinho para quem retornar para assistir a um culto dentro do mês.\n\nPara um feriado que gira em torno do pagamento de impostos, este festival Abadaran não é tão insultado quanto se poderia esperar.",
+          "id": "824516",
+          "note": null,
+          "date": {
+            "day": 15,
+            "year": [
+              null,
+              null
+            ],
+            "month": 3
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Direitos de Augustana",
+          "description": "Andoran, Brigh\n\nEste festival local na cidade portuária de Augustana, em Andorra, é realizado para homenagear e celebrar a indústria de construção naval local, bem como a marinha. A matemática e a engenharia necessárias para a construção dos navios são elogiadas pelos fiéis de Brigh.",
+          "id": "824517",
+          "note": null,
+          "date": {
+            "day": 16,
+            "year": [
+              null,
+              null
+            ],
+            "month": 3
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Gala das Velas",
+          "description": "Absalão\n\nUm dos dois festivais locais onde competem lutadores de pipas.",
+          "id": "824518",
+          "note": null,
+          "date": {
+            "day": 27,
+            "year": [
+              null,
+              null
+            ],
+            "month": 3
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Remembrance Moon",
+          "description": "Iomedae, Lastwall, Ustalav\n\nA national holiday to commemorate those who died in the Shining Crusade against the Whispering Tyrant. Although not strictly a religious holiday, Iomedae's name is heavily invoked, due to her many military accomplishments during the war.",
+          "id": "824519",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia do Anjo",
+          "description": "Magnimar, Varisia\n\nO Dia do Anjo é um feriado Magnimariano local celebrado em 31 de Desnus. A celebração anual marca a fundação da cidade e a fuga de seus fundadores de Korvosa. Também homenageia a presença e o culto popular dos senhores empíreos, que antecede a cidade em séculos. Durante o festival, quase todos os negócios locais fecham as portas e os cidadãos participam de inúmeras festas, bailes de máscaras vestidos de anjos e da queima de efígies do diabo destinadas a simbolizar Korvosa, de influência infernal.",
+          "id": "824520",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 4
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia do Velho Mago",
+          "description": "Feriado que celebra o Velho Mago Jatembe, o pai da magia Garundi.",
+          "id": "824521",
+          "note": null,
+          "date": {
+            "day": 13,
+            "year": [
+              null,
+              null
+            ],
+            "month": 4
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Eventos múltiplos",
+          "description": "Festival do Sol Regente\n\nShizuru\n\nComemora o dia mais longo.\n\nLoucura do FundadorUlar Kel\n\nAventureiros e crianças seguem uma faixa vermelha alucinante por caminhos em ziguezague, divertindo os moradores.\n\nFestival de Recompensas da Colheita\n\nSegada\n\nMarcando o início da época da colheita, esta festa envolve torneios desportivos, danças, contação de histórias e festas. Os celebrantes agradecem e eliminam rancores.\n\nLonga caminhada\n\nAvó Aranha, Nurvatchta; solstício de inverno no hemisfério sul\n\nComemora a fuga do povo anadi de Nurvatchta da escravidão, em parte graças à Vovó Aranha prolongando sua cobertura de escuridão em sua fuga.\n\nRitual da Poeira Estelar\n\nDesna\n\nFestival realizado à noite e durante a noite, onde os fiéis de Desna cantam canções e jogam areia e pedras preciosas em pó nas fogueiras.\n\nFesta Rúnica\n\nMagrim\n\nDia que marca o dia em que os anões aprenderam as primeiras runas e a maneira correta de orar.\n\nFestival Forjado pelo SolSarenrae, Brigh\n\nDia que comemora a derrota de Rovagug por Sarenrae, comemorado com lançamento de pipas, fogos de artifício e entrega de presentes.",
+          "id": "824522",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Lâminas Flamejantes",
+          "description": "Sarenrae\n\nO festival sagrado, que dura um mês, termina neste dia, apresentando danças com lâminas flamejantes.",
+          "id": "824523",
+          "note": null,
+          "date": {
+            "day": 10,
+            "year": [
+              null,
+              null
+            ],
+            "month": 5
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Liberdade",
+          "description": "Andoran, Milani\n\nFeriado que celebra a independência de Andoran. Os milanitas comemoram que ocorreu muito pouca violência.",
+          "id": "824524",
+          "note": null,
+          "date": {
+            "day": 3,
+            "year": [
+              null,
+              null
+            ],
+            "month": 5
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Etiqueta de Garra",
+          "description": "Andoran\n\nOs Eagle Knights realizam exibições aéreas em Almas neste dia.",
+          "id": "824525",
+          "note": null,
+          "date": {
+            "day": 21,
+            "year": [
+              null,
+              null
+            ],
+            "month": 5
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Vento Fluvial",
+          "description": "Korvosa\n\nUmas férias de início de verão que homenageiam uma mudança refrescante nos ventos, celebradas com muita bebida.",
+          "id": "824526",
+          "note": null,
+          "date": {
+            "day": 22,
+            "year": [
+              null,
+              null
+            ],
+            "month": 5
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Ascensão do Herdeiro",
+          "description": "Iomedae\n\nA Ascensão do Herdeiro, originalmente chamada de 'Dia do Arauto', homenageia o dia em que Iomedae foi escolhida pelo deus Aroden para se tornar seu arauto (substituindo assim Arazni), aumentando assim seu poder além do de uma deusa novata. Este feriado foi renomeado após o desaparecimento de Aroden.",
+          "id": "824527",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia do Primeiro Cruzado",
+          "description": "Mendev\n\nFeriado em comemoração à continuação da cruzada contra os demônios da Ferida Mundial.",
+          "id": "824528",
+          "note": null,
+          "date": {
+            "day": 6,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia dos Sussurros Silenciados",
+          "description": "Ustalav\n\nO Dia dos Sussurros Silenciados é um feriado Ustalavic celebrado a cada 9 Arodus, marcando a derrota do Tirano Sussurrante em 3827 AR pelas forças da coalizão da Cruzada Brilhante e a libertação do país após séculos de dominação dos mortos-vivos.",
+          "id": "824529",
+          "note": null,
+          "date": {
+            "day": 9,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Fundação",
+          "description": "Ilsuriano, Varisia\n\nFestival que celebra a fundação por Ilsur da cidade de Ilsurian em 4631 AR.",
+          "id": "824530",
+          "note": null,
+          "date": {
+            "day": 10,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Armasse",
+          "description": "Aroden, Iomedae, Milani\n\nO estridente festival de uma semana conhecido como Armasse é realizado todos os anos, começando no dia 16 de Arodus. A celebração - antes dedicada ao deus Aroden - ainda é importante para os fiéis de Iomedae, que a utilizam para treinar plebeus em combate, ordenar aprendizes de clérigos, escolher escudeiros para cavaleiros e ensinar história militar, na esperança de evitar os erros do passado. de ser repetido. Entre aqueles que não são dedicados ao Herdeiro, o feriado perdeu a maior parte do seu significado religioso desde a morte de Aroden, tendendo agora apenas para festas selvagens, um fato que impediu as autoridades diabólicas de Cheliax de proibir Armasse completamente. No entanto, nos locais onde a igreja de Asmodeus é abertamente permitida, ela organiza atividades especiais para os seus paroquianos durante a mesma semana, num esforço para contrariar a influência do feriado. A cidade de Corentyn é especialmente conhecida por suas extravagantes festividades de Armasse.",
+          "id": "824531",
+          "note": null,
+          "date": {
+            "day": 16,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Aniversário de Santa Alika",
+          "description": "Korvosa\n\nFeriado tranquilo em homenagem ao nascimento de Santa Alika, a Mártir.",
+          "id": "824532",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 7
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festa do Arqueiro",
+          "description": "Erastil\n\nO Dia do Arqueiro ou Festa do Arqueiro é um feriado do deus Erastil realizado anualmente no dia 3 de Erasto. Apesar das origens do feriado na adoração de Erastil, os camponeses comuns das Terras dos Reis Linnorm a Taldor celebram o auge do verão com um dia reservado para estabelecer novos relacionamentos, desfrutar da camaradagem atual e celebrar os presentes dos deuses. As competições de tiro com arco são realizadas com frequência, nas quais os homens testam suas habilidades com o arco por meio de provas cada vez mais difíceis. A forma exata da competição varia de lugar para lugar, e o vencedor recebe uma estante de chifres de alce e uma aljava de flechas abençoadas. Ele também recebe o título de “Protetor”, que mantém até o ano seguinte.\n\nEmbora as tradições do festival enfatizem competições de pontaria, a maioria se expandiu para exibir talentos de todos os tipos, desde panificação e contação de histórias até corridas e combates simulados. Além de encorajar uma atmosfera de feira, muitas das exibições e competições servem um de dois propósitos secundários: ou como uma forma de os comerciantes exibirem o seu gado e produtos superiores, ou (mais popularmente) como uma forma de homens e mulheres elegíveis para se exibirem um para o outro.\n\nEnquanto os eventos do dia na maioria das feiras do Archerfeast são repletos de jogos, comida e artesanato, a noite traz danças, bebidas, brincadeiras e a coroação dos príncipes e princesas da primavera e do verão para os dois jovens solteiros e os dois adultos solteiros que passaram melhor nos eventos do dia. As festividades continuam até tarde da noite, mas terminam pontualmente à meia-noite, para que, no verdadeiro estilo Erastiliano, as responsabilidades do dia seguinte não sejam excessivamente prejudicadas. Para aqueles que não fazem parte do rebanho de Erastil, no entanto, festas privadas, bebidas e encontros amorosos continuam até a manhã seguinte.",
+          "id": "824533",
+          "note": null,
+          "date": {
+            "day": 3,
+            "year": [
+              null,
+              null
+            ],
+            "month": 6
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival da Fundação",
+          "description": "Korvosa\n\nO Festival da Fundação é uma celebração local de Korvosan que marca o estabelecimento da cidade em 4407 AR. Realizado anualmente no dia 14 de Erasto, o festival é uma oportunidade para os cidadãos desabafarem, beberem copiosamente e assistirem a espetáculos de luzes mágicos até altas horas da noite.",
+          "id": "824534",
+          "note": null,
+          "date": {
+            "day": 14,
+            "year": [
+              null,
+              null
+            ],
+            "month": 6
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Noite Ardente",
+          "description": "Razmiran\n\nItens ou pessoas que transgrediram contra o deus-rei de Razmiran são queimados neste dia.",
+          "id": "824535",
+          "note": null,
+          "date": {
+            "day": 17,
+            "year": [
+              null,
+              null
+            ],
+            "month": 6
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival Kianidi",
+          "description": "Garundi\n\nO Festival Kianidi é um evento de uma semana realizado anualmente entre 15 e 21 Erastus pelo povo Garundi em todos os lugares. Os Garundi têm uma crença poderosa em pertencer a um local específico neste mundo, com clãs ou tribos às vezes viajando durante anos em busca de seu verdadeiro lar. Nestas viagens cada indivíduo irá recolher pequenas lembranças dos locais que visitou para se lembrar deles e manter uma ligação espiritual. Durante o Kianidi, uma tribo se reunirá e exibirá essas lembranças ao grupo. Os melhores são escolhidos e fazem parte da história do clã ou tribo, o que Garundi considera uma grande honra.",
+          "id": "824536",
+          "note": null,
+          "date": {
+            "day": 15,
+            "year": [
+              null,
+              null
+            ],
+            "month": 6
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Lua cheia",
+          "description": null,
+          "id": "824537",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Eventos múltiplos",
+          "description": "Festival do Retorno da Noite\n\nNidal\n\nComemorado em Nidal, este feriado envolve a queima de efígies e autoflagelação.\n\nFestival Rabo de Andorinha\n\nDesna\n\nFeriado celebrado com contação de histórias, festa e soltura de borboletas.\n\nFestival da Luz Minguante\n\nSegada\n\nTambém chamada de Bênção do Sol e Noite dos Espíritos, os participantes se despedem dos longos dias de sol com festa, dança e música.",
+          "id": "824538",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Assinatura",
+          "description": "Andoran, Cheliax, Galt, Isger\n\nO Dia da Assinatura é um feriado de Chelish, que remonta ao auge do império. Observado no segundo Dia do Juramento de Rova, este é o dia em que as novas leis do império entraram em vigor. O significado deste dia expandiu-se ao longo de muitos anos, até que casamentos imperiais, acordos comerciais significativos e juramentos de fidelidade foram realizados neste dia.\n\nOriginalmente, o feriado começou como uma celebração do pacto de defesa mútua entre Cheliax, Isger, Galt e Andoran, quando as nações unidas se libertaram das algemas de Taldor, declarando-se independentes do império. As observâncias do feriado variam, mas geralmente incluem exibições de fogos de artifício, feitos de força e debates públicos para mostrar habilidades de fala e retórica.\n\nÀ medida que Cheliax degenerou para a guerra civil e o diabolismo após 4606 AR, pactos de sangue e contratos infernais também começaram a ser assinados neste dia. Como resultado da nova afiliação de Cheliax, Andoran e Galt começaram a se distanciar de Cheliax e da interpretação original do feriado. Em Andoran, continua a ser o dia em que a maioria das leis nacionais entram em vigor, além de ser um dia tradicional de casamento, e a data em que os novos Steel Falcons são empossados.",
+          "id": "824539",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Caranguejo",
+          "description": "Korvosa\n\nO Festival do Caranguejo é um feriado korvosano realizado no primeiro Wealday de Rova. Ele celebra o retorno dos caranguejos das águas mais frias do rio Jeggare ao seu habitat de inverno na Baía do Conquistador e é marcado por festas de fervura de caranguejo realizadas em toda a cidade e nas comunidades vizinhas.",
+          "id": "824540",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festa de Szurpade",
+          "description": "Irrisen\n\nEste festival de “celebração da abundância” zomba dos tradicionais festivais de colheita celebrados na região antes de Baba Yaga e seu inverno eterno descerem sobre a terra.",
+          "id": "824541",
+          "note": null,
+          "date": {
+            "day": 26,
+            "year": [
+              null,
+              null
+            ],
+            "month": 8
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Separação",
+          "description": "Ydersius\n\nAntigamente muitos feriados eram celebrados pela fé de Ydersius, mas hoje só esta data tem muito significado.",
+          "id": "824542",
+          "note": null,
+          "date": {
+            "day": 29,
+            "year": [
+              null,
+              null
+            ],
+            "month": 8
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Admani Upastuti",
+          "description": "Jalmeri\n\nAdmani Upastuti é um feriado Jalmeri celebrado na primeira lua cheia de Lamashan que marca a fundação de Jalmeray como uma colônia Vudran.",
+          "id": "824543",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Ascensão",
+          "description": "IomedaeIomedae\n\nO Dia da Ascensão é um feriado Iomediano, realizado no dia 6 de Lamashan. O dia marca o aniversário do dia em que Iomedae realizou o Teste da Pedra da Estrela no outono de 3832 AR e ascendeu à divindade.\n\nCelebração\n\nO dia é uma celebração alegre para os fiéis, com cantos, promessas de amizades e perdão de antigos rancores.\n\nPara muitos, o Teste da Pedra da Estrela representa o maior de todos os desafios, mas para Iomedae foi uma das três promoções históricas em sua ascensão de arauto de Aroden a uma deusa por direito próprio. No dia 6 de Lamashan, os fiéis do Herdeiro observam o heroísmo da vida de Iomedae antes de seu momento de ascensão e celebram o aniversário da própria apoteose.\n\nA celebração acontece em várias etapas. No início do dia, grupos de artistas - muitas vezes amadores e profissionais apaixonados - encenam peças de moralidade apresentando os Onze Atos de Iomedae, os quase-milagres heróicos e os sacrifícios que ela fez antes de seus julgamentos na Catedral de Starstone. Os roteiros variam por região, cidade e até mesmo bairro, mas apesar das diferenças no cenário, meio de atuação e escolha de palavras, os temas e a moral são todos os mesmos.\n\nÀ medida que o dia avança, os sacerdotes organizam justas e batalhas simuladas, permitindo a participação de qualquer pessoa, desde que demonstre habilidade suficiente para não representar um risco para si mesma ou para os outros. Os vencedores desses concursos enfrentam então testes de acuidade mental, como resolver enigmas, decifrar dilemas filosóficos e responder a questões de honra e justiça. Aqueles que provarem seu valor em ambas as competições recebem um manto branco - representando o Herdeiro em paz - inspirado na vestimenta vermelha de Iomedae para usar durante o resto da celebração. Festejar e cantar acompanham as competições, refletindo o júbilo que se seguiu à ascensão de Iomedae. Esta é uma ocasião para fazer promessas de amizade e perdoar os inimigos, e os sacerdotes circulam pela multidão oferecendo a bênção do Herdeiro àqueles que o fazem e proporcionando um momento de conselho ou mediação para aqueles que precisam de um empurrãozinho extra.\n\nA celebração normalmente termina antes da meia-noite, e no dia seguinte os sacerdotes e os campeões do dia anterior reúnem as espadas cegas das batalhas simuladas, afiam-nas e distribuem-nas entre o arsenal da igreja e de organizações com ideias semelhantes, para que todos possam permanecer vigilantes. contra o mal e preparado para derrubá-lo.\n\nAscendance Day is an Iomedaean holiday, held on the 6th of Lamashan. The day marks the anniversary of the day Iomedae took the Test of the Starstone in the autumn of 3832 AR and ascended to godhood.\n\nCelebration\n\nThe day is a joyous celebration for the faithful, with singing, pledging of friendships, and forgiving of old grudges.\n\nTo many, the Test of the Starstone represents the greatest of all challenges, yet for Iomedae it was one of three storied promotions in her rise from Aroden's herald to a goddess in her own right. On the 6th of Lamashan, the Inheritor's faithful observe the heroism of Iomedae's life before her moment of ascension and celebrate the anniversary of the apotheosis itself.\n\nThe celebration takes place in several stages. Early in the day, troupes of performers—as often passionate amateurs as professionals—stage morality plays featuring the Eleven Acts of Iomedae, the heroic near-miracles and sacrifices she made leading up to her trials in the Starstone Cathedral. Scripts vary by region, city, and even neighborhood, but despite differences in setting, performance medium, and word choice, the themes and morals are all the same.\n\nAs the day continues, the priests organize jousts and mock battles, allowing anyone to participate so long as she can demonstrate enough skill to not be a risk to herself or others. The winners of these contests then face tests of mental acuity such as solving riddles, deciphering philosophical quandaries, and answering questions of honor and justice. Those who prove themselves in both contests are awarded a white cloak—representing the Inheritor at peace—styled after Iomedae's own red garment to wear for the rest of the celebration. Feasting and singing follow the competitions, mirroring the jubilation that followed Iomedae's ascension. This is occasion for making pledges of friendship and forgiving enemies, and priests circulate about the crowd offering the Inheritor's blessing to those who do and providing a moment's counsel or mediation for those who need an extra nudge.\n\nThe celebration typically ends before midnight, and the following day the priests and previous day's champions gather up the blunted swords from the mock battles, sharpen them, and distribute them among the church's armory and those of like-minded organizations so that all may remain vigilant against evil and prepared to strike it down.",
+          "id": "824544",
+          "note": null,
+          "date": {
+            "day": 6,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia do Bastião",
+          "description": "Solku\n\nO Dia do Bastião é um festival de dois dias realizado anualmente nos dias 19 e 20 de Lamashan, na cidade de Solku, em Katapeshi, em homenagem à fundação da cidade, quando é tradicional receber um estranho do meio-dia ao outro.",
+          "id": "824545",
+          "note": null,
+          "type": "Date",
+          "date": {
+            "day": 19,
+            "year": 4712,
+            "month": 9
+          },
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Boné do Bobo",
+          "description": "Andoran, Druma, Taldor\n\nO boné do bobo da corte ocorre no final do mês de Lamashan, tradicionalmente no dia 27 (embora algumas regiões tenham mudado um pouco o dia exato para que sempre caia no último Starday do mês, permitindo que as pessoas que desejam comemorar em excesso ter o dia seguinte de descanso para se recuperar).\n\nHistória\n\nEmbora o boné do bobo da corte tenha sido abraçado de braços abertos pelas comunidades de gnomos da região do Mar Interior, diz-se que sua gênese original ocorreu em uma das cidades costeiras de Taldor, não muito depois do rei Aspex, o de língua uniforme, ter se separado da nação, enfraquecendo significativamente O poder de Taldor e o início do longo declínio daquela nação. O feriado foi originalmente planejado para distrair a população perturbada de Taldan com uma noite de folia e entretenimento cômico, mas as travessuras dos bobos simplesmente não eram suficientes.\n\nAo longo dos primeiros anos, o bobo da corte evoluiu de um feriado de observação para um feriado de participação. Hoje, o feriado é um momento em que qualquer um pode pregar peças, piadas ou brincadeiras com companheiros, vizinhos e (mais tipicamente) com rivais, com o entendimento de que, desde que nenhum dano duradouro seja causado, quaisquer humilhações infligidas antes da meia-noite serão tomadas. no tranco. É claro que, na manhã do dia seguinte, inevitavelmente há piadas que foram longe demais, e rancores e rixas nascidos de palhaçadas de bobo da corte costumam durar meses.\n\nNa Religião\n\nSeguidores de Chaldira Zuzaristão, uma divindade halfling da travessura, tratam o boné do bobo da corte como um dia sagrado e suas travessuras – muitas vezes elaboradas e extravagantes por natureza e planejadas com meses de antecedência – como demonstrações de sua fé.",
+          "id": "824546",
+          "note": null,
+          "date": {
+            "day": 27,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festa dos Sobreviventes",
+          "description": "Zon-Kuthon, Nidal\n\nUm festival da colheita que significa os séculos dos ancestrais Nidaleses protegidos por Zon-Kuthon. As mesas cerimoniais são feitas de ossos humanos de membros da comunidade de gerações passadas.",
+          "id": "824547",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Carnaval de Kraken",
+          "description": "Absalão\n\nO segundo de dois festivais locais onde competem lutadores de pipas.",
+          "id": "824548",
+          "note": null,
+          "date": {
+            "day": 15,
+            "year": [
+              null,
+              null
+            ],
+            "month": 9
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Independência",
+          "description": "Galt\n\nMarca o início da Revolução Vermelha.",
+          "id": "824549",
+          "note": null,
+          "date": {
+            "day": 5,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Sete Véus",
+          "description": "Sivanah\n\nO feriado conhecido como Sete Véus, que acontece no dia 23 de Neth na maioria dos reinos da região do Mar Interior, é uma celebração da diversidade da região – uma época em que as fronteiras sociais se rompem ainda mais em um evento de um dia cheio de dança. , festa e namoro. A noite tradicionalmente termina com o baile de máscaras dos Sete Véus, um baile em que os participantes usam disfarces que escondem sua raça ou gênero (muitas vezes usando pequenas bugigangas mágicas e feitiços) ou disfarçam essas características como características inteiramente novas. No final do baile, os participantes retiram os disfarces aos seus parceiros, muitas vezes com resultados imprevisíveis e por vezes deliciosamente estranhos. As mentes tradicionalistas e conservadoras muitas vezes consideram as máscaras dos Sete Véus escandalosas ou desanimadoras, mas continuam particularmente populares na maioria das grandes cidades do país.\n\nOs historiadores observam que a \"Dança dos Sete Véus\" original tem uma gênese muito diferente daquela que promove a diversidade - o misterioso culto de Sivanah, deusa das ilusões, do mistério e das reflexões, é geralmente citado como a fonte deste festival e, de fato, os adoradores da deusa (ela mesma conhecida como o Sétimo Véu) consideram o dia 23 de Neth como um dos dias mais sagrados. Os rituais que a igreja de Sivanah realiza nesta data, entretanto, são desconhecidos para quem está de fora, pois o culto desfruta de seus segredos. Este segredo, sem surpresa, deu origem a todos os tipos de boatos sinistros, mas quando Sete Véus acontece a cada ano, seus ansiosos participantes são rápidos em deixar de lado os boatos em preferência à diversão e aos jogos da noite.",
+          "id": "824550",
+          "note": null,
+          "date": {
+            "day": 23,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia Abjurante",
+          "description": "Nethys\n\nO Dia Abjurante ocorre em 8 Neth e é conhecido como um dia de cooperação entre vizinhos para reforçar as defesas mútuas e treinar aliados em magia. Os aprendizes em potencial são frequentemente testados no dia.",
+          "id": "824551",
+          "note": null,
+          "date": {
+            "day": 8,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Lembrança do Grande Fogo",
+          "description": "Korvosa\n\nA Lembrança do Grande Fogo é um feriado celebrado a cada dia 13 de Neth na cidade varisiana de Korvosa. Ele comemora o Grande Incêndio de 4429 AR, que devastou a então ainda incipiente colônia Chelish de Fort Korvosa. Neste dia sombrio, a maior parte da cidade fecha e as pessoas geralmente permanecem em casa. Tornou-se tradição não acender nenhuma fogueira (nem mesmo fogueiras para cozinhar) na Lembrança do Grande Fogo.",
+          "id": "824552",
+          "note": null,
+          "date": {
+            "day": 13,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Língua Equilibrada",
+          "description": "Cheliax, Asmodeus, Milani\n\nObservado em 14 de Neth, o Dia da Língua Equilibrada já foi um dia de alegria e celebração em Cheliax, mas tornou-se um dia de luto.\n\nOriginalmente, a data marcava a conquista de Aspex, o de Língua Iguala, que colocou as nações de Galt, Andoran e Isger sob o controle Chelish. Desde a morte de Aroden e a perda dessas nações, o feriado marca a perda do território e da glória outrora detidos por Cheliax. Às vezes, juramentos são feitos, normalmente a Asmodeus, e raramente de natureza agradável (como a recuperação do império perdido e a vingança contra ex-aliados traiçoeiros).\n\nOs cidadãos vestem preto neste dia, falar em público é proibido e antigas rixas e vinganças reacendem-se.",
+          "id": "824553",
+          "note": null,
+          "date": {
+            "day": 14,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Evocação",
+          "description": "Nethys\n\nUm dia sagrado para os seguidores de Nethys, o Dia da Evocação é cheio de explosões vibrantes, manejo habilidoso de feitiços e muita dança. O Dia da Evocação é comemorado no dia 18 de Neth e, embora este feriado seja comemorado principalmente em Garund, os templos dedicados a Nethys realizam celebrações em toda a região do Mar Interior. As celebrações tradicionais do Dia da Evocação mudaram ao longo dos milhares de anos desde a sua primeira encarnação, mas até hoje cada ocorrência do Dia da Evocação ainda apresenta uma grande refeição partilhada pelos celebrantes durante a tarde e uma maravilhosa exposição de magia brilhante e explosiva assim que o sol se põe. . Hoje em dia, essas exibições mágicas coloridas são complementadas com fogos de artifício de uma dúzia de cores e padrões diferentes.\n\nNos templos de Nethys dedicados à reverência à magia de evocação, sacerdotes e arcanistas proeminentes participam de duelos de feitiços onde cada competidor fica em uma plataforma elevada e se reveza tentando incapacitar seu oponente. A magia usada nesses duelos favorece os chamativos em detrimento dos perigosos, mas os clérigos de Nethys estão à disposição para tratar quaisquer ferimentos. Esses duelos reúnem grandes multidões ansiosas por aplaudir seu competidor favorito.\n\nÉ também durante este festival que os magos que adoram Nethys abrem seus livros de feitiços para outros que compartilham sua arte. Os magos normalmente guardam seus livros de feitiços com suas vidas e cobiçam as informações sobrenaturais neles contidas, mas no Dia da Evocação esses magos se reúnem antes do banquete da tarde para compartilhar seus feitiços, assim como se preparam para compartilhar uma grande refeição.\n\nEmbora o Dia da Evocação seja principalmente um dia de grande magia, aqueles sem talento para lançar feitiços ainda se aglomeram nos templos locais de Nethys para participar do banquete compartilhado e das exibições noturnas de magia e fogos de artifício. Entre a refeição e noite adentro, os celebrantes usam túnicas pretas e brancas e executam danças alegres destinadas a agradecer às maravilhas que Nethys trouxe à humanidade. Essas danças são grandiosas, envolvendo dezenas de dançarinos, todos girando e batendo palmas ao som da música que os acompanha, enquanto suas vestes pretas e brancas se espalham ao redor deles a cada giro. À medida que a noite desce e os fogos de artifício e as exibições mágicas começam, a dança atinge um clímax irrompendo em gritos e chamados por Nethys a cada estrondo estrondoso.",
+          "id": "824554",
+          "note": null,
+          "date": {
+            "day": 18,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Batismo de Gelo",
+          "description": "Irrisen\n\nNo Batismo de Gelo Irriseni, um festival anual de fertilidade realizado de 24 a 30 de Neth, os moradores desfilam todas as crianças nascidas durante o ano na cidade com roupas finas. Na maioria das cidades, a festa termina com o sacrifício simbólico de uma criança ao frio. No entanto, nas capitais provinciais de Whitethrone e Irrisen, uma criança camponesa é morta por exposição.",
+          "id": "824555",
+          "note": null,
+          "date": {
+            "day": 24,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Transmutatum",
+          "description": "Nethys\n\nTransmutatum é um dos três principais feriados da igreja de Nethys, no dia 28 de Neth. É um dia de reflexão e autoaperfeiçoamento. Muitos seguidores de Nethys começam a pesquisar e elaborar projetos neste dia.",
+          "id": "824556",
+          "note": null,
+          "date": {
+            "day": 28,
+            "year": [
+              null,
+              null
+            ],
+            "month": 10
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Semana de Inverno",
+          "description": "Festa tradicional; tempo para namorar e passar tempo com amigos.",
+          "id": "824557",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "O Encadeamento das Sombras",
+          "description": "Zon-Kuthon, Nidal\n\nComemorando o presente dos animais das sombras do Senhor da Meia-Noite.",
+          "id": "824558",
+          "note": null,
+          "date": {
+            "day": 1,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival do Pseudodragão",
+          "description": "Korvosa\n\nO Festival do Pseudodragão de Korvosa, um feriado celebrado anualmente em 7 de Kuthona, marca a migração de inverno de pseudodragões selvagens das Montanhas Mindspin para a Baía do Conquistador, o que inspira as criaturas que já estão na cidade - mesmo aquelas domesticadas - a brincar com seus parentes selvagens nos céus. a cidade. Os moradores locais marcam o dia com uma embriaguez alegre.",
+          "id": "824559",
+          "note": null,
+          "date": {
+            "day": 7,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia da Ascensão",
+          "description": "Cayden Cailean\n\nMuito parecido com o deus a quem é dedicado, o feriado caidenita do Dia da Ascensão é geralmente celebrado de forma muito informal. Ocorrendo anualmente em 11 de Kuthona, comemora o dia em que Cayden Cailean passou no Teste da Pedra da Estrela e ascendeu à divindade em 2765 AR. Com toda a probabilidade, o dia 11 de Kuthona não é a data exata em que isso realmente aconteceu, mas como o deus estava bêbado quando aconteceu, provavelmente nunca será conhecido.",
+          "id": "824560",
+          "note": null,
+          "date": {
+            "day": 11,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Flor Invernal",
+          "description": "Naderi\n\nFeriado que celebra a ascensão de Naderi. As celebrações são normalmente discretas, mas incluem leituras de The Lay of Arden e Lysena.",
+          "id": "824561",
+          "note": null,
+          "date": {
+            "day": 15,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia Final",
+          "description": "Groeto\n\nOs cultistas de Groetus realizam uma hora de silêncio ao anoitecer do último dia do ano e buscam orientação de seu deus sobre o Fim dos Tempos.",
+          "id": "824562",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Noite do Pálido",
+          "description": "Nem todos os feriados e festivais de Golarion são momentos de alegria e deleite. Feriados adorados por cultos e religiões obscuros e sinistros tendem a ser assuntos ocultos, seus rituais e cerimônias envolvem crueldades e práticas vis que provocam arrepios de medo em uma sociedade mais gentil. Os estudiosos suspeitam que a Noite do Pálido – um feriado que tradicionalmente ocorre no último dia do ano, 31 de Kuthona – tem ligações com várias religiões sinistras, mas hoje nenhuma igreja tem uma associação específica com o evento. Mesmo assim, a Noite do Pálido é um evento que muitos aguardam ansiosamente o ano todo, seja com medo ou excitação.\n\nNa Noite do Pálido, diz-se que os fantasmas daqueles que morreram no ano anterior se manifestam no mundo e vêm visitar as casas onde viveram durante a vida. Embora alguns possam pensar que a chance de ver até mesmo a sombra de um ente querido pode ser uma bênção, a Noite do Pálido não é um momento para reuniões chorosas, pois esses fantasmas, diz a tradição, não retornam por amor a aqueles. eles deixaram para trás, mas por compulsões mais sombrias. Diz-se que o ciúme persistente, as discussões inacabadas ou a necessidade latente de vingança são o que obriga os mortos a retornar para atormentar os vivos na Noite do Pálido.\n\nA noite desta noite em muitas comunidades é celebrada por uma festa mórbida, a comida preparada com temas que giram em torno de cemitérios, os mortos e outras tradições assustadoras. Esta festa, por um lado, ajuda os celebrantes a aliviar seus medos enquanto compartilham boa companhia com vizinhos igualmente nervosos, mas em outro nível acredita-se que aplaca espíritos vingativos enquanto brindes são feitos às memórias dos que partiram recentemente. Essas festas incluem recontagens de memórias favoritas dos que partiram, na esperança de lembrar aos fantasmas que se aproximam memórias mais brilhantes e gentis do que aquelas que os obrigam a retornar. A festa termina sempre pelo menos uma hora antes da meia-noite para dar tempo aos participantes de voltarem para casa, decorar portas e janelas com sal e outras bugigangas retiradas da mesa da festa (pão salgado assado em formato de torta é o favorito, pois pode pendurados em maçanetas e beirais) para afastar os maus espíritos e se esconder em seus quartos até o amanhecer. Jovens corajosos e aventureiros muitas vezes ficam fora deliberadamente depois da meia-noite, seja para desafiar os fantasmas a desafiá-los ou simplesmente pela emoção de contrariar a tradição. Em todas as Noites do Pálido, ao que parece, há desaparecimentos entre aqueles que ficam fora depois da meia-noite, embora esses desaparecimentos sejam o resultado de moradores locais insatisfeitos aproveitando a oportunidade para fugir de casa, assassinos ou animais selvagens ou outros perigos mundanos, ou o espíritos vingativos que levam suas vítimas depende das circunstâncias.\n\nA manhã seguinte a uma Noite do Pálido é também o primeiro dia do ano novo – um momento que muitos comemoram mais como um alívio por terem sobrevivido à noite anterior do que em antecipação ao que o ano novo pode trazer, embora as preferências regionais sobre como este dia possa acontecer. é celebrado varia o suficiente para que nenhuma tradição se sobreponha à outra. Exceto, é claro, os medos persistentes de quais espíritos terríveis poderiam bater nas portas protegidas daqui a um ano...",
+          "id": "824563",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Dia de Virada",
+          "description": "Alseta\n\nA mudança de ano é celebrada com o perdão de dívidas e rancores antigos e com o abraço de novas oportunidades.",
+          "id": "824564",
+          "note": null,
+          "date": {
+            "day": 31,
+            "year": [
+              null,
+              null
+            ],
+            "month": 11
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Ritual of Stardust",
+          "description": "Desna\n\nThe Ritual of Stardust is one of the few formal religious holidays in honor of the goddess Desna. It is held on both the summer and winter solstices.\n\nFollowers of the Song of Spheres gather at dusk and light enormous bonfires and hold feasts, watching the sparks and embers float out into the darkening sky. After it is fully dark, the celebrants chant and sing songs as they watch the fires burn low. When only embers remain, sand mixed with ground star gems (either star rubies, star sapphires, or rose quartz) is thrown on them or into the air downwind. At this point it is common to make proclamations of love and friendship and of promised journeys to come. The twinkling of the sand is thought to mirror the night sky and demonstrate Desna's witnessing of these pronouncements.",
+          "id": "824565",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Semana de Plantio",
+          "description": "Erastil\n\nEsta semana santa ao deus Erastil é um momento de trabalho pesado nos campos para os agricultores.",
+          "id": "824566",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Noite da Ascensão",
+          "description": "Norgorber\n\nDia que marca a apoteose do Ceifador da Reputação.",
+          "id": "824567",
+          "note": null,
+          "date": {
+            "day": 2,
+            "year": [
+              null,
+              null
+            ],
+            "month": 4
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Azvadeva Dejal",
+          "description": "Gruhastha\n\nCelebração da revelação do Azvadeva Pujila, com presentes de livros, celebrações de conhecimento, bênção de animais e festa vegetariana.",
+          "id": "824568",
+          "note": null,
+          "date": {
+            "day": 3,
+            "year": [
+              null,
+              null
+            ],
+            "month": 4
+          },
+          "type": "Recurring",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Mercado de Pulgas Goblin",
+          "description": "Andoran\n\nUm dia de feira que aposta no artesanato inusitado e oferece brincadeiras para as crianças que se fantasiam para a ocasião.",
+          "id": "824569",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Festival de Violação",
+          "description": "Korvosa\n\nFestival anual em que os competidores tentam romper as barreiras mágicas que protegem a Academae.",
+          "id": "824570",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Domingo Silverglazer",
+          "description": "Andoran\n\nO Domingo Silverglazer é um festival nacional de Andoren em duas partes que acontece no último domingo de Arodus e no primeiro domingo de Rova todos os anos. Os celebrantes passam os dois domingos pescando, realizando competições de natação e fazendo enormes fantoches.",
+          "id": "824571",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        },
+        {
+          "name": "Batul al-Alim",
+          "description": "Qadira\n\nBatul al-Alim é um feriado celebrado no último dia do juramento de Calistril em Qadira. Comemora o aniversário do popular poeta romântico de mesmo nome.",
+          "id": "824572",
+          "note": null,
+          "date": {
+            "day": null,
+            "year": null,
+            "month": null
+          },
+          "type": "Undated",
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          }
+        }
+      ],
+      "id": "ID_795b0948f86b",
+      "categories": [
+        {
+          "name": "Eventos Naturais",
+          "id": "natural-events",
+          "color": "#2E7D32"
+        },
+        {
+          "name": "Feriados Religiosos",
+          "id": "religious-holidays",
+          "color": "#9b2c2c"
+        },
+        {
+          "name": "Feriados Seculares",
+          "id": "secular-holidays",
+          "color": "#0D47A1"
+        },
+        {
+          "name": "Eventos Históricos",
+          "id": "historical-events",
+          "color": "#455A64"
+        },
+        {
+          "name": "Outros Eventos",
+          "id": "miscellaneous-events",
+          "color": "#0288D1"
+        }
+      ],
+      "dateFormat": "DD-MM-YYYY"
     }
   ],
   "configDirectory": null,
   "dailyNotes": false,
   "dateFormat": "YYYY-MM-DD",
-  "defaultCalendar": "ID_08992b9a2a49",
+  "defaultCalendar": "ID_795b0948f86b",
   "eventPreview": false,
   "exit": {
     "saving": false,
@@ -495,7 +2347,7 @@
   "version": {
     "major": 1,
     "minor": 3,
-    "patch": 1,
+    "patch": 3,
     "beta": null
   },
   "debug": false,
