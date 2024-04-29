@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Maldição de Strahd/Sessões/Sessão 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Maldição de Strahd/Sessões/Sessão 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md",
+                "file": "Maldição de Strahd/Sessões/Sessão 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dragão pico gélido/Região phandalin.md"
+                "file": "Maldição de Strahd/Sessões/Sessão 1.md"
               }
             }
           }
@@ -180,8 +180,14 @@
   },
   "active": "0dd94a79335d7dc7",
   "lastOpenFiles": [
-    "Dragão pico gélido/Locais/Escavação dos Anões.md",
+    "Maldição de Strahd/Imagens/Barovia.webp",
+    "Maldição de Strahd/Sessões/Sessão 1.md",
+    "Maldição de Strahd/Imagens",
     "Dragão pico gélido/Campanha/Sessão Exemplo.md",
+    "Maldição de Strahd/Sessões",
+    "Maldição de Strahd",
+    "Dragão pico gélido/Região phandalin.md",
+    "Dragão pico gélido/Locais/Escavação dos Anões.md",
     "Geral/Equipamento/Equipamentos.md",
     "Dragão pico gélido/Phandalin/Locais/Provisões de Barthen.md",
     "Dragão pico gélido/itens/Escudo +1.md",
@@ -191,7 +197,6 @@
     "Dragão pico gélido/Phandalin/Locais/Salão do prefeito.md",
     "Dragão pico gélido/Phandalin/Missões phandalin.md",
     "Dragão pico gélido/Phandalin/Phandalin.md",
-    "Dragão pico gélido/Região phandalin.md",
     "Costa da espada/Mapa.md",
     "Dragão pico gélido/imagens/barthen.jpg",
     "Dragão pico gélido/imagens/Toblen.jpg",
@@ -214,18 +219,12 @@
     "Dragão pico gélido/Phandalin/Locais/Santuário da Sorte.md",
     "Dragão pico gélido/imagens/phandalinImagem.jpg",
     "Dragão pico gélido/imagens/haliaThornton.jpg",
-    "Dragão pico gélido/imagens/Linene.jpg",
     "Geral/Comercio/Veículos Aquáticos.md",
     "Geral/Comercio/Selas, Arreios e Veículos de Tração.md",
     "Geral/Equipamento/Armaduras.md",
-    "Geral/Comercio/Serviços.md",
-    "Geral/Comercio/Animais.md",
     "Geral/Comercio",
     "Geral/Regras",
     "Geral/Equipamento",
-    "Geral",
-    "Draão pico gélido",
-    "Costa da espada/imagens",
     "Untitled.canvas"
   ]
 }
