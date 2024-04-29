@@ -1,0 +1,6 @@
+- Você fica desprevenido a menos que tenha uma Velocidade de natação. 
+- Você adquire resistência 5 a ácido e fogo.
+- Você sofre –2 de penalidade de circunstância em ataques corpo a corpo contundentes e cortantes que passarem pela água. 
+- Ataques à distância que causam dano contundente ou cortante erram automaticamente se o atacante ou alvo estiver embaixo d’água, e ataques perfurantes à distância feitos por uma criatura embaixo d’água ou contra um alvo embaixo d’água têm seus incrementos de distância divididos pela metade. 
+- Você não pode conjurar magias de fogo ou usar ações com o traço fogo embaixo d’água. 
+- A critério do MJ, algumas ações baseadas no solo podem não funcionar embaixo d’água ou enquanto estiver boiando.

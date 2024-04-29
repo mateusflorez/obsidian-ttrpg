@@ -22,7 +22,7 @@ As prateleiraas deste armazém estão repletas de suprimentos comuns. O lugar pa
 		- Tem escamas brancas brilhantes
 
 ### Loja
-- [[Equipamentos]]
+- [[D&D/Geral/Equipamento/Equipamentos]]
 - [[Ferramentas]]
 
 ### Imagens

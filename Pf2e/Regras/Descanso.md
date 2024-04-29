@@ -1,0 +1,2 @@
+Uma vez a cada 24 horas, você pode realizar um período de descanso (normalmente 8 horas) após o qual você **recupera Pontos de Vida igual ao seu modificador de Constituição (mínimo 1) multiplicado pelo seu nível**, e pode recuperar-se de certas condições ou melhorá-las (página 453).
+**Dormir em uma armadura** resulta em um descanso ruim, o que lhe deixa fatigado. Se passar mais de 16 horas sem descansar, você fica fatigado (e não pode recuperar-se disto até descansar durante pelo menos 6 horas contínuas).
