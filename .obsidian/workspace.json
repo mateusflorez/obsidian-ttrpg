@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "198cd0c729313aa0",
+        "id": "30cf3c2df3d66272",
         "type": "tabs",
         "children": [
           {
-            "id": "008cb53f8dfc0310",
+            "id": "7e781cbaba029e27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pf2e/Regras/Ações/Testes.md",
+                "file": "Pf2e/Regras/Recompensas/Tesouro.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,6 +78,7 @@
       {
         "id": "33be78b48db05a3c",
         "type": "tabs",
+        "dimension": 60.798122065727696,
         "children": [
           {
             "id": "c0e2dca57343f084",
@@ -98,6 +99,11 @@
               "state": {
                 "calendar": "ID_795b0948f86b",
                 "ephemeral": {
+                  "viewing": {
+                    "day": 15,
+                    "month": 0,
+                    "year": 4720
+                  },
                   "viewState": 0,
                   "displaying": {
                     "day": 15,
@@ -126,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pf2e/Regras/Ações/Testes.md",
+                "file": "Pf2e/Regras/Recompensas/Tesouro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pf2e/Regras/Ações/Testes.md",
+                "file": "Pf2e/Regras/Recompensas/Tesouro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pf2e/Regras/Ações/Testes.md"
+                "file": "Pf2e/Regras/Recompensas/Tesouro.md"
               }
             }
           }
@@ -165,6 +171,7 @@
       {
         "id": "09252e2fa25827c7",
         "type": "tabs",
+        "dimension": 39.201877934272304,
         "children": [
           {
             "id": "6847be7d270a38d7",
@@ -197,10 +204,17 @@
       "calendarium:Open Calendarium": false
     }
   },
-  "active": "008cb53f8dfc0310",
+  "active": "7e781cbaba029e27",
   "lastOpenFiles": [
-    "Pf2e/Regras/Descanso.md",
+    "Pf2e/Dogma dos Lordes Dragões/Campanha/História.md",
+    "Pf2e/Dogma dos Lordes Dragões/Campanha",
+    "Pf2e/Regras/Recompensas/Riqueza inicial.md",
+    "Pf2e/Dogma dos Lordes Dragões",
+    "Pf2e/Regras/Recompensas/Tesouro.md",
+    "Pf2e/Regras/Recompensas/Experiência.md",
     "Pf2e/Regras/Ações/Testes.md",
+    "Pf2e/Regras/Recompensas",
+    "Pf2e/Regras/Descanso.md",
     "Pf2e/Regras/Ações/Combate aquático.md",
     "Pf2e/Regras/Ações/Combate montado.md",
     "Pf2e/Regras/Ações/Cobertura.md",
@@ -225,18 +239,10 @@
     "Pf2e/Regras/Serviços/Custo de vida.md",
     "Pf2e/Regras/Serviços/Armaduras de animal.md",
     "Pf2e/Regras/Serviços/Animais.md",
-    "Pf2e/Regras/Idiomas/Idioma secreto.md",
-    "Pf2e/Regras/Idiomas/Idiomas Incomuns.md",
-    "Pf2e/Regras/Idiomas/Idiomas Comuns.md",
-    "Pf2e/Regras/Equipamentos/Valor de moedas.md",
-    "Pf2e/Regras/Equipamentos/Armaduras.md",
     "Pf2e/Regras/Dano",
     "Pf2e/Regras/Idiomas",
     "Pf2e/Regras/Atributos",
     "Pf2e/Regras/Equipamentos",
-    "Pf2e/Regras/Serviços",
-    "Pf2e/Regras",
-    "Pf2e",
     "D&D/Dragão pico gélido/imagens/barthen.jpg",
     "D&D/Dragão pico gélido/imagens/Toblen.jpg",
     "D&D/Dragão pico gélido/imagens/harbinWester.jpg",
