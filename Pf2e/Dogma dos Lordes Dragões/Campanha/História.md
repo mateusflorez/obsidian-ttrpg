@@ -1,1 +1,0 @@
-Neste mundo, um grupo de heróis é escolhido para combaterem o grande dragão, estes são nomeados os lordes dragões, 

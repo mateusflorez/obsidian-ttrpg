@@ -1,0 +1,9 @@
+### Informações dos goblins
+- **Sucesso Crítico:** Além da informação na descrição de sucesso, os PJs sabem que ==Zustripa está frustrado com a falta de entusiasmo== de sua tribo ==em relação ao teatro== e ==adoraria ajuda extra== de qualquer pessoa interessada. 
+- **Sucesso:** Os goblins da Dedos-Tortos são ==liderados por Zustripa==, que é ==obcecado por apresentação e atuação==. Sua tribo ocupou um antigo teatro no distrito das Poças que ninguém mais quer pelo fato do ==distrito estar afundando lentamente==. 
+- **Falha Crítica:** Os goblins que moram no antigo teatro estão lentamente sendo ==corrompidos pelos espíritos== que assombram o lugar. Eles são o==brigados a encenar as apresentações que levaram os antigos proprietários à ruína== e não fazem ideia de como escapar do mesmo destino.
+
+### História de Absalom
+- **Sucesso Crítico:** Rumores obscuros cercam ==esta área de Absalom==. Alguns afirmam que é um ==local de desova para os corpos== dos que foram assassinados ou, talvez, até mesmo um lugar onde as ==vítimas são capturadas antes de serem mortas==. Era certamente conhecida no passado como uma ==área frequentada por criminosos==. 
+- **Sucesso:** Com certeza existem estruturas antigas abaixo do que agora é chamado de Poças. No passado, estes locais tiveram ==problemas com mortos-vivos corpóreos== como carniçais, esqueletos, lívidos e zumbis. Moradores antigos da área contam ==histórias de gritos== que ocasionalmente aparentavam emanar de algum lugar das profundezas abaixo das ruas. 
+- **Falha Crítica:** ==Os ratusomens== que antes cuidavam das atividades criminosas na área foram expulsos há muito tempo e ==substituídos por uma gangue de tubaromens== que gostou da natureza alagada do local. Os membros da gangue ==podem ser identificados pelos dentes== que parecem ser afiados em pontas.

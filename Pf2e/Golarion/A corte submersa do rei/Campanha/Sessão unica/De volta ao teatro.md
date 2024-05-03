@@ -1,0 +1,16 @@
+
+- Quando os PJs retornam, Zustripa pede que eles o ==entretenham com suas façanhas== em uma apresentação de palco improvisada.
+- Se os PJs ==entregarem, a escritura== do teatro a Zustripa, ele fica em êxtase e logo gritos de ==“Vocês é heróis!”== ressoam pelo local. Mas fica satisfeito só de terem matado os monstros.
+- Se trouxerem Marcon, ==Zustripa não acha que é uma boa ideia deixá-lo sair==
+	- Diplomacia **CD 15** ou Performance **CD 13** (-2 com a escritura)(Convencer)
+		- **S:** Convence o rei
+		- **F:** O rei não faz nada mas fica apreensivo
+	- Dissimulação **CD 17** (-2 com a escritura)(Mentir identidade de Marcon)
+		- **S:** Convence o rei
+		- **F:** O rei não faz nada mas fica desconfiado
+	- Furtividade **CD 13** (Esconder Marcon)
+		- **S:** Não são vistos
+		- **F:** São vistos por um goblin que fala para eles irem antes que Zustripa os veja
+- Devem relatar a Drandle Dreng que ouve atentamente a história
+	- Menciona que ouviu rumores sobre lugares antigos sob a cidade onde prisioneiros vivos eram sepultados, mas que não possuía nenhuma evidência direta até aquele momento.
+	- Se trouxerem Marcon ele diz que irá cuidar da segurança de Marcon e descobrir a história dele.
